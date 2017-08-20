@@ -375,6 +375,11 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="700"/>
                     <connections>
+                        <outlet property="bor_fast_view" destination="ZvC-cM-6en" id="Rgx-Ie-G1e"/>
+                        <outlet property="bor_scat_view" destination="4pc-zX-i82" id="mdL-fI-fSd"/>
+                        <outlet property="draw_btn" destination="uKe-Vm-52F" id="w6c-TL-NCq"/>
+                        <outlet property="inv_plan_view" destination="3Ll-t1-FbT" id="zTb-cT-o6d"/>
+                        <outlet property="inv_scat_view" destination="9hR-oN-qyF" id="MKQ-jI-ih7"/>
                         <outlet property="pageControl" destination="ZTj-5D-5Kd" id="swL-lq-rho"/>
                         <outlet property="scrollPane" destination="cac-mO-mmu" id="D9O-ir-vvI"/>
                     </connections>

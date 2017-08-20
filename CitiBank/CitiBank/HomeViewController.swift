@@ -12,6 +12,11 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
 
     @IBOutlet weak var scrollPane: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var inv_plan_view: UIView!
+    @IBOutlet weak var bor_scat_view: UIView!
+    @IBOutlet weak var bor_fast_view: UIView!
+    @IBOutlet weak var inv_scat_view: UIView!
+    @IBOutlet weak var draw_btn: UIButton!
     
     var images = [["name":"image1","pic":"guide0","url":"url1"],
                   ["name":"image2","pic":"guide1","url":"url2"],
@@ -21,10 +26,7 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         //设置内容总尺寸
-        print(self.view.bounds.width)
-        print(self.view.bounds.height*0.25)
         scrollPane.contentSize = CGSize(width: CGFloat(self.view.bounds.width) * CGFloat(self.images.count), height: CGFloat(self.view.bounds.height * 0.25))
-        print(scrollPane.contentSize.width)
         //关闭滚动条
         scrollPane.showsVerticalScrollIndicator = false
         scrollPane.showsHorizontalScrollIndicator = false
@@ -41,13 +43,10 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
 //            scrollPane.addSubview(imageView);
             let view = UIView()
             view.frame = CGRect(x: CGFloat(seq) * size.width, y: 0, width: size.width, height: size.height)
-            print(size.width)
             view.backgroundColor = color[seq]
             scrollPane.addSubview(view)
         }
         scrollPane.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height)
-        print("A:",view.bounds.width)
-        print("B:",scrollPane.frame.width)
         //页面控件
 //      pageControl.backgroundColor = UIColor.clear
         pageControl.numberOfPages = images.count
@@ -72,7 +71,6 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
     //点击页面控件时时间处理
     func pageChanged(_sender: UIPageControl){
         var frame = scrollPane.frame
-        print(scrollPane.frame.width)
         frame.origin.x = view.bounds.width * CGFloat(_sender.currentPage)
         frame.origin.y = 0
         //展现当前页面内容
