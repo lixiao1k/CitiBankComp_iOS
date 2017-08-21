@@ -16,6 +16,7 @@
 		097B9AC21F4878D700EAF825 /* CitiBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9AC11F4878D700EAF825 /* CitiBankTests.swift */; };
 		097B9ACD1F4878D700EAF825 /* CitiBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9ACC1F4878D700EAF825 /* CitiBankUITests.swift */; };
 		0998375D1F4AA51D00253208 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998375C1F4AA51D00253208 /* InvestViewController.swift */; };
+		0998375F1F4AFEA800253208 /* BorrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998375E1F4AFEA800253208 /* BorrowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		097B9ACC1F4878D700EAF825 /* CitiBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiBankUITests.swift; sourceTree = "<group>"; };
 		097B9ACE1F4878D700EAF825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0998375C1F4AA51D00253208 /* InvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
+		0998375E1F4AFEA800253208 /* BorrowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				097B9AAC1F4878D700EAF825 /* AppDelegate.swift */,
 				097B9AAE1F4878D700EAF825 /* ViewController.swift */,
 				097B9AB01F4878D700EAF825 /* Main.storyboard */,
+				0998375E1F4AFEA800253208 /* BorrowViewController.swift */,
 				0998375C1F4AA51D00253208 /* InvestViewController.swift */,
 				097B9AB31F4878D700EAF825 /* Assets.xcassets */,
 				097B9AB51F4878D700EAF825 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				0998375D1F4AA51D00253208 /* InvestViewController.swift in Sources */,
 				097B9AAD1F4878D700EAF825 /* AppDelegate.swift in Sources */,
 				0924E86C1F493190004B1FC4 /* HomeViewController.swift in Sources */,
+				0998375F1F4AFEA800253208 /* BorrowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
