@@ -14,7 +14,7 @@
         <!--投资-->
         <scene sceneID="k6K-Oh-ZU9">
             <objects>
-                <viewController id="4DN-48-r3O" sceneMemberID="viewController">
+                <viewController id="4DN-48-r3O" customClass="InvestViewController" customModule="CitiBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="36Y-TR-Lv5"/>
                         <viewControllerLayoutGuide type="bottom" id="J0s-lC-MSN"/>
@@ -396,6 +396,15 @@
                     <navigationItem key="navigationItem" title="投资" id="0Bg-ch-Hoi">
                         <barButtonItem key="leftBarButtonItem" image="drawer" id="ptB-pW-TA2"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="back_acount_query_view" destination="Ouc-3g-jVB" id="n9D-NX-FYw"/>
+                        <outlet property="earn_sum_lab" destination="kSu-gM-zfh" id="Gc7-nK-rqh"/>
+                        <outlet property="inv_lab_amount" destination="3Vx-wb-4lN" id="h9u-xF-edi"/>
+                        <outlet property="inv_plan_view" destination="FOT-8S-IWe" id="3Is-2X-dZN"/>
+                        <outlet property="inv_record_view" destination="Tgk-wY-ekD" id="dP2-FV-97J"/>
+                        <outlet property="inv_scat_view" destination="2Cm-UI-dZA" id="wHy-Ky-Nji"/>
+                        <outlet property="inv_sum_view" destination="ET6-UD-yJ0" id="C9Y-aD-ITs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ys1-2q-YRe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

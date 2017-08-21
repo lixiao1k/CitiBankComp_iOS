@@ -10,6 +10,15 @@ import UIKit
 
 class InvestViewController: UIViewController {
 
+    @IBOutlet weak var inv_lab_amount: UILabel!
+    @IBOutlet weak var earn_sum_lab: UILabel!
+    @IBOutlet weak var inv_scat_view: UIView!
+    @IBOutlet weak var inv_plan_view: UIView!
+    @IBOutlet weak var back_acount_query_view: UIView!
+    @IBOutlet weak var inv_record_view: UIView!
+    @IBOutlet weak var inv_sum_view: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
