@@ -53,17 +53,17 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         
         pageControl.addTarget(self, action: #selector(pageChanged(_sender:)), for: .valueChanged)
         //为自定义view添加监听
-//        inv_plan_view.addOnClickListener(target: self, action: #selector(print1))
+        inv_plan_view.addOnClickListener(target: self, action: #selector(goInvestPlan))
         
 
         // Do any additional setup after loading the view.
     }
     
     
-//    func print1() {
-//        let viewController = UIStoryboard(name:"Invest", bundle: nil).instantiateViewController(withIdentifier: "Hello") as UIViewController
-//        self.navigationController?.pushViewController(viewController, animated: true)
-//    }
+    func goInvestPlan() {
+        let viewController = UIStoryboard(name:"Invest", bundle: nil).instantiateViewController(withIdentifier: "Invest_Plan") as UIViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

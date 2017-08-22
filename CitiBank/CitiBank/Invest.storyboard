@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Invest Plan View Controller-->
+        <scene sceneID="kWG-ZH-IgA">
+            <objects>
+                <viewController storyboardIdentifier="Invest_Plan" id="Zo5-sp-hdZ" customClass="InvestPlanViewController" customModule="CitiBank" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nX1-d5-2Ic"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zm9-lZ-Km7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BDb-Qf-Bq4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gxf-PD-MfI">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uOK-U0-KPZ">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资金额" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUq-VR-dxG" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="62" width="250" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AEW-3d-EuD"/>
+                                    <constraint firstAttribute="width" constant="250" id="Fbg-8u-9vN"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资期限" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VIA-YM-fXv" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="142" width="250" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8xm-jb-NOk"/>
+                                    <constraint firstAttribute="width" constant="250" id="Tjj-tk-PXG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VIA-YM-fXv" firstAttribute="centerX" secondItem="BDb-Qf-Bq4" secondAttribute="centerX" id="7FW-lF-MdP"/>
+                            <constraint firstItem="tUq-VR-dxG" firstAttribute="top" secondItem="nX1-d5-2Ic" secondAttribute="bottom" constant="42" id="Rbv-NZ-mGt"/>
+                            <constraint firstItem="VIA-YM-fXv" firstAttribute="top" secondItem="tUq-VR-dxG" secondAttribute="bottom" constant="30" id="alm-Rz-mon"/>
+                            <constraint firstItem="tUq-VR-dxG" firstAttribute="centerX" secondItem="BDb-Qf-Bq4" secondAttribute="centerX" id="e3G-3A-hNM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="amount_pv" destination="gxf-PD-MfI" id="Owi-jD-qob"/>
+                        <outlet property="invest_amount_tf" destination="tUq-VR-dxG" id="oLW-3z-jXl"/>
+                        <outlet property="invest_time_tf" destination="VIA-YM-fXv" id="BPa-K3-Sps"/>
+                        <outlet property="time_pv" destination="uOK-U0-KPZ" id="T76-uG-ml3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o5a-Vh-AuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-918" y="-553"/>
+        </scene>
+    </scenes>
+</document>
