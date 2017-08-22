@@ -408,7 +408,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ys1-2q-YRe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2143.125" y="-107.74647887323944"/>
+            <point key="canvasLocation" x="3140.625" y="-107.74647887323944"/>
         </scene>
         <!--还款-->
         <scene sceneID="RAU-ZQ-JSA">
@@ -673,19 +673,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFn-pl-kcG">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="651"/>
+                                <rect key="frame" x="0.0" y="44" width="320" height="607"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cac-mO-mmu">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+                                        <rect key="frame" x="0.0" y="-43" width="320" height="175"/>
                                     </scrollView>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZTj-5D-5Kd">
-                                        <rect key="frame" x="0.0" y="138" width="320" height="37"/>
+                                        <rect key="frame" x="0.0" y="95" width="320" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="KEc-8V-ZbV"/>
                                         </constraints>
                                     </pageControl>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ll-t1-FbT">
-                                        <rect key="frame" x="0.0" y="175" width="320" height="120"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ll-t1-FbT" customClass="UIView_Button" customModule="CitiBank" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="132" width="320" height="120"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="X7U-fz-Lzx">
                                                 <rect key="frame" x="105" y="25" width="98.5" height="71"/>
@@ -740,7 +740,7 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.87925457954406738" green="0.91698545217514038" blue="0.95687544345855713" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="gsZ-Ei-dov" secondAttribute="bottom" id="J4F-Xd-CTz"/>
                                             <constraint firstItem="X7U-fz-Lzx" firstAttribute="top" secondItem="l81-tB-QRo" secondAttribute="top" constant="-10" id="PHE-Wt-Zvw"/>
@@ -752,8 +752,8 @@
                                             <constraint firstItem="l81-tB-QRo" firstAttribute="leading" secondItem="3Ll-t1-FbT" secondAttribute="leading" constant="30" id="tCD-sq-XDk"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9hR-oN-qyF">
-                                        <rect key="frame" x="0.0" y="295" width="320" height="120"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9hR-oN-qyF" customClass="UIView_Button" customModule="CitiBank" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="252" width="320" height="120"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="Haz-Wv-yPg">
                                                 <rect key="frame" x="30" y="35" width="50" height="50"/>
@@ -808,7 +808,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.87925457954406738" green="0.91698545217514038" blue="0.95687544345855713" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="0DX-eU-pzn"/>
                                             <constraint firstItem="Haz-Wv-yPg" firstAttribute="top" secondItem="9hR-oN-qyF" secondAttribute="top" constant="35" id="2XG-Py-JNs"/>
@@ -820,8 +820,8 @@
                                             <constraint firstItem="Haz-Wv-yPg" firstAttribute="leading" secondItem="9hR-oN-qyF" secondAttribute="leading" constant="30" id="xJW-gg-RHw"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZvC-cM-6en">
-                                        <rect key="frame" x="0.0" y="415" width="320" height="120"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZvC-cM-6en" customClass="UIView_Button" customModule="CitiBank" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="372" width="320" height="120"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightning" translatesAutoresizingMaskIntoConstraints="NO" id="Y2O-1Z-nHf">
                                                 <rect key="frame" x="30" y="35" width="50" height="50"/>
@@ -876,7 +876,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.87925457954406738" green="0.91698545217514038" blue="0.95687544345855713" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="ZfG-P0-ZKa" firstAttribute="leading" secondItem="Y2O-1Z-nHf" secondAttribute="trailing" constant="25" id="1Vy-fo-Eqh"/>
                                             <constraint firstItem="inN-H1-HLe" firstAttribute="leading" secondItem="ZvC-cM-6en" secondAttribute="leading" id="8J4-rR-iju"/>
@@ -888,8 +888,8 @@
                                             <constraint firstItem="ZfG-P0-ZKa" firstAttribute="top" secondItem="Y2O-1Z-nHf" secondAttribute="top" constant="-10" id="tJP-IT-1b7"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4pc-zX-i82">
-                                        <rect key="frame" x="0.0" y="535" width="320" height="120"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4pc-zX-i82" customClass="UIView_Button" customModule="CitiBank" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="492" width="320" height="120"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="iXi-Gu-wBX">
                                                 <rect key="frame" x="30" y="35" width="50" height="50"/>
@@ -927,7 +927,7 @@
                                                 </constraints>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.87925457954406738" green="0.91698545217514038" blue="0.95687544345855713" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="H9X-nx-jHN" firstAttribute="leading" secondItem="iXi-Gu-wBX" secondAttribute="trailing" constant="25" id="A7Y-kL-OBp"/>
                                             <constraint firstAttribute="height" constant="120" id="f81-s5-yJX"/>
@@ -942,7 +942,7 @@
                                     <constraint firstItem="ZvC-cM-6en" firstAttribute="width" secondItem="9hR-oN-qyF" secondAttribute="width" id="6rA-HQ-Y7r"/>
                                     <constraint firstItem="4pc-zX-i82" firstAttribute="leading" secondItem="ZvC-cM-6en" secondAttribute="leading" id="7yr-SN-ivg"/>
                                     <constraint firstItem="ZvC-cM-6en" firstAttribute="top" secondItem="9hR-oN-qyF" secondAttribute="bottom" id="9vw-iz-rfJ"/>
-                                    <constraint firstItem="cac-mO-mmu" firstAttribute="top" secondItem="tFn-pl-kcG" secondAttribute="top" id="BTm-xu-0jg"/>
+                                    <constraint firstItem="cac-mO-mmu" firstAttribute="top" secondItem="tFn-pl-kcG" secondAttribute="top" constant="-43" id="BTm-xu-0jg"/>
                                     <constraint firstItem="9hR-oN-qyF" firstAttribute="leading" secondItem="3Ll-t1-FbT" secondAttribute="leading" id="CYn-JC-nmR"/>
                                     <constraint firstItem="ZTj-5D-5Kd" firstAttribute="width" secondItem="cac-mO-mmu" secondAttribute="width" id="HSo-x4-sgz"/>
                                     <constraint firstItem="cac-mO-mmu" firstAttribute="leading" secondItem="tFn-pl-kcG" secondAttribute="leading" id="RNT-cO-jXD"/>
@@ -950,7 +950,7 @@
                                     <constraint firstItem="3Ll-t1-FbT" firstAttribute="top" secondItem="cac-mO-mmu" secondAttribute="bottom" id="Y1M-RD-vug"/>
                                     <constraint firstItem="3Ll-t1-FbT" firstAttribute="width" secondItem="tFn-pl-kcG" secondAttribute="width" id="dMg-a0-g2E"/>
                                     <constraint firstItem="4pc-zX-i82" firstAttribute="width" secondItem="ZvC-cM-6en" secondAttribute="width" id="dRg-7s-wMx"/>
-                                    <constraint firstAttribute="bottom" secondItem="cac-mO-mmu" secondAttribute="bottom" constant="476" id="ea2-ne-o6H"/>
+                                    <constraint firstAttribute="bottom" secondItem="cac-mO-mmu" secondAttribute="bottom" constant="432" id="ea2-ne-o6H"/>
                                     <constraint firstItem="9hR-oN-qyF" firstAttribute="top" secondItem="3Ll-t1-FbT" secondAttribute="bottom" id="ho5-TZ-thU"/>
                                     <constraint firstAttribute="trailing" secondItem="cac-mO-mmu" secondAttribute="trailing" id="j6j-U3-DgI"/>
                                     <constraint firstItem="ZTj-5D-5Kd" firstAttribute="baseline" secondItem="cac-mO-mmu" secondAttribute="baseline" id="kfW-3m-1OR"/>
@@ -960,35 +960,24 @@
                                     <constraint firstItem="cac-mO-mmu" firstAttribute="leading" secondItem="ZTj-5D-5Kd" secondAttribute="leading" id="zTx-ie-cwq"/>
                                 </constraints>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKe-Vm-52F">
-                                <rect key="frame" x="5" y="10" width="25" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="USx-Hr-mDM"/>
-                                    <constraint firstAttribute="width" constant="25" id="kCs-E6-j1w"/>
-                                </constraints>
-                                <state key="normal" image="drawer"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tFn-pl-kcG" firstAttribute="top" secondItem="BZ6-Xa-Kqm" secondAttribute="bottom" constant="-20" id="0QB-3p-L1l"/>
                             <constraint firstItem="tFn-pl-kcG" firstAttribute="leading" secondItem="8z5-V7-OEt" secondAttribute="leadingMargin" constant="-16" id="5X1-al-XLm"/>
-                            <constraint firstItem="uKe-Vm-52F" firstAttribute="leading" secondItem="8z5-V7-OEt" secondAttribute="leading" constant="5" id="C7e-nj-M6R"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tFn-pl-kcG" secondAttribute="trailing" constant="-16" id="U2g-3H-cCh"/>
-                            <constraint firstItem="uKe-Vm-52F" firstAttribute="top" secondItem="8z5-V7-OEt" secondAttribute="top" constant="10" id="Vaz-tO-TGm"/>
                             <constraint firstItem="cac-mO-mmu" firstAttribute="height" secondItem="8z5-V7-OEt" secondAttribute="height" multiplier="0.25" id="bSW-jb-4Cr"/>
                             <constraint firstItem="77V-WZ-FKR" firstAttribute="top" secondItem="tFn-pl-kcG" secondAttribute="bottom" id="tol-cN-toK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="首页" image="home" selectedImage="home" id="Os9-f8-oJ1">
-                        <inset key="imageInsets" minX="2" minY="2" maxX="2" maxY="2"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="首页" id="exl-tv-WZ0">
+                        <barButtonItem key="leftBarButtonItem" image="drawer" id="uKS-jH-fQR"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="700"/>
                     <connections>
                         <outlet property="bor_fast_view" destination="ZvC-cM-6en" id="Rgx-Ie-G1e"/>
                         <outlet property="bor_scat_view" destination="4pc-zX-i82" id="mdL-fI-fSd"/>
-                        <outlet property="draw_btn" destination="uKe-Vm-52F" id="w6c-TL-NCq"/>
                         <outlet property="inv_plan_view" destination="3Ll-t1-FbT" id="zTb-cT-o6d"/>
                         <outlet property="inv_scat_view" destination="9hR-oN-qyF" id="MKQ-jI-ih7"/>
                         <outlet property="pageControl" destination="ZTj-5D-5Kd" id="swL-lq-rho"/>
@@ -997,7 +986,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgk-hs-AId" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1097" y="-795"/>
+            <point key="canvasLocation" x="1918" y="-969"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="syb-jp-Wta">
@@ -1009,7 +998,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="CrS-Ee-xTq" kind="relationship" relationship="viewControllers" id="0YJ-sp-yGM"/>
+                        <segue destination="q3m-dq-GaU" kind="relationship" relationship="viewControllers" id="0YJ-sp-yGM"/>
                         <segue destination="FZv-dF-Egh" kind="relationship" relationship="viewControllers" id="wl5-ZM-OOG"/>
                         <segue destination="Mep-RM-yKE" kind="relationship" relationship="viewControllers" id="oYp-4X-Zm5"/>
                         <segue destination="qsQ-qD-XFy" kind="relationship" relationship="viewControllers" id="vGB-A6-EyV"/>
@@ -1494,6 +1483,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SmV-tM-bSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1031" y="924"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="Yx5-8D-5Hy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q3m-dq-GaU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="home" selectedImage="home" id="Os9-f8-oJ1">
+                        <inset key="imageInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hW7-LU-kzL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CrS-Ee-xTq" kind="relationship" relationship="rootViewController" id="DpX-kE-nrv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kpH-yO-ifq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1096.875" y="-795.42253521126759"/>
         </scene>
     </scenes>
     <resources>

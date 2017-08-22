@@ -12,11 +12,10 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
 
     @IBOutlet weak var scrollPane: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
-    @IBOutlet weak var inv_plan_view: UIView!
-    @IBOutlet weak var bor_scat_view: UIView!
-    @IBOutlet weak var bor_fast_view: UIView!
-    @IBOutlet weak var inv_scat_view: UIView!
-    @IBOutlet weak var draw_btn: UIButton!
+    @IBOutlet weak var inv_plan_view: UIView_Button!
+    @IBOutlet weak var bor_scat_view: UIView_Button!
+    @IBOutlet weak var bor_fast_view: UIView_Button!
+    @IBOutlet weak var inv_scat_view: UIView_Button!
     
     var images = [["name":"image1","pic":"guide0","url":"url1"],
                   ["name":"image2","pic":"guide1","url":"url2"],
@@ -53,10 +52,18 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         pageControl.currentPage = 0
         
         pageControl.addTarget(self, action: #selector(pageChanged(_sender:)), for: .valueChanged)
+        //为自定义view添加监听
+//        inv_plan_view.addOnClickListener(target: self, action: #selector(print1))
         
 
         // Do any additional setup after loading the view.
     }
+    
+    
+//    func print1() {
+//        let viewController = UIStoryboard(name:"Invest", bundle: nil).instantiateViewController(withIdentifier: "Hello") as UIViewController
+//        self.navigationController?.pushViewController(viewController, animated: true)
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -77,6 +84,11 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         scrollPane.scrollRectToVisible(frame, animated: true)
         
     }
+    
+    
+    //四个板块的监听方法
+    
+    
     
 
     /*
