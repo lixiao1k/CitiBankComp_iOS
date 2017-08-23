@@ -115,14 +115,13 @@
 		097B9AAB1F4878D700EAF825 /* CitiBank */ = {
 			isa = PBXGroup;
 			children = (
+				098882F11F4D8ECF0016E396 /* Invest */,
 				099837621F4B1AAA00253208 /* ReturnViewController.swift */,
 				097B9AAC1F4878D700EAF825 /* AppDelegate.swift */,
 				097B9AAE1F4878D700EAF825 /* ViewController.swift */,
 				099837661F4BCBDE00253208 /* UIView_Button.swift */,
 				097B9AB01F4878D700EAF825 /* Main.storyboard */,
-				0998376A1F4C171300253208 /* Invest.storyboard */,
 				0998376C1F4C267D00253208 /* Picker_TextField.swift */,
-				0998376E1F4C38DF00253208 /* InvestPlanViewController.swift */,
 				099837641F4B252500253208 /* ReturnTableViewCell.swift */,
 				0998375E1F4AFEA800253208 /* BorrowViewController.swift */,
 				0998375C1F4AA51D00253208 /* InvestViewController.swift */,
@@ -150,6 +149,15 @@
 				097B9ACE1F4878D700EAF825 /* Info.plist */,
 			);
 			path = CitiBankUITests;
+			sourceTree = "<group>";
+		};
+		098882F11F4D8ECF0016E396 /* Invest */ = {
+			isa = PBXGroup;
+			children = (
+				0998376A1F4C171300253208 /* Invest.storyboard */,
+				0998376E1F4C38DF00253208 /* InvestPlanViewController.swift */,
+			);
+			name = Invest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

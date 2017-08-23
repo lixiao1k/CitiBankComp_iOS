@@ -21,15 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gxf-PD-MfI">
-                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uOK-U0-KPZ">
-                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资金额" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUq-VR-dxG" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资金额" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUq-VR-dxG" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="62" width="250" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -40,7 +32,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资期限" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VIA-YM-fXv" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资期限" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VIA-YM-fXv" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="142" width="250" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -61,10 +53,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="amount_pv" destination="gxf-PD-MfI" id="Owi-jD-qob"/>
                         <outlet property="invest_amount_tf" destination="tUq-VR-dxG" id="oLW-3z-jXl"/>
                         <outlet property="invest_time_tf" destination="VIA-YM-fXv" id="BPa-K3-Sps"/>
-                        <outlet property="time_pv" destination="uOK-U0-KPZ" id="T76-uG-ml3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5a-Vh-AuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
