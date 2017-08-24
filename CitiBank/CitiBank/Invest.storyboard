@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资金额" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUq-VR-dxG" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
-                                <rect key="frame" x="62.5" y="62" width="250" height="50"/>
+                                <rect key="frame" x="63" y="62" width="250" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="AEW-3d-EuD"/>
@@ -33,7 +34,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="投资期限" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VIA-YM-fXv" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
-                                <rect key="frame" x="62.5" y="142" width="250" height="50"/>
+                                <rect key="frame" x="63" y="142" width="250" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8xm-jb-NOk"/>
@@ -43,6 +44,31 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MAU-1F-y7s">
+                                <rect key="frame" x="147.5" y="490.5" width="80" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="同意" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrn-ff-Xlg">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="YEa-aE-sOZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmA-8I-nKm" customClass="M13Checkbox" customModule="M13Checkbox">
+                                        <rect key="frame" x="60" y="0.0" width="20" height="20"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="402-wb-KCr"/>
+                                            <constraint firstAttribute="height" constant="20" id="Wl8-nM-wcY"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="checkTypeChanged:" destination="Zo5-sp-hdZ" eventType="valueChanged" id="e6P-MB-8S9"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -50,16 +76,19 @@
                             <constraint firstItem="tUq-VR-dxG" firstAttribute="top" secondItem="nX1-d5-2Ic" secondAttribute="bottom" constant="42" id="Rbv-NZ-mGt"/>
                             <constraint firstItem="VIA-YM-fXv" firstAttribute="top" secondItem="tUq-VR-dxG" secondAttribute="bottom" constant="30" id="alm-Rz-mon"/>
                             <constraint firstItem="tUq-VR-dxG" firstAttribute="centerX" secondItem="BDb-Qf-Bq4" secondAttribute="centerX" id="e3G-3A-hNM"/>
+                            <constraint firstItem="MAU-1F-y7s" firstAttribute="centerY" secondItem="BDb-Qf-Bq4" secondAttribute="centerY" multiplier="1.5" id="iMf-cy-30c"/>
+                            <constraint firstItem="MAU-1F-y7s" firstAttribute="centerX" secondItem="BDb-Qf-Bq4" secondAttribute="centerX" id="wXK-sj-YQ9"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="agree_label" destination="zrn-ff-Xlg" id="EDU-1S-qZ8"/>
                         <outlet property="invest_amount_tf" destination="tUq-VR-dxG" id="oLW-3z-jXl"/>
                         <outlet property="invest_time_tf" destination="VIA-YM-fXv" id="BPa-K3-Sps"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5a-Vh-AuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-918" y="-553"/>
+            <point key="canvasLocation" x="-1063.2" y="-606.74662668665667"/>
         </scene>
     </scenes>
 </document>

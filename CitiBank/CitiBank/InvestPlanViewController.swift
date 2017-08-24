@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import M13Checkbox
 
 class InvestPlanViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
 
@@ -14,8 +15,11 @@ class InvestPlanViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
     
     @IBOutlet weak var invest_time_tf: Picker_TextField!
     
+    @IBOutlet weak var agree_label: UILabel!
+    
     var amount_data = [1,2,3,4,5,6,7,8,9]
     var time_data = [1,3,6,9,12]
+    var checkMark: Bool! //判断是否同意协议
     
 //    
     override func viewDidLoad() {
@@ -37,14 +41,15 @@ class InvestPlanViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
         let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard(tapG:)))
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)
-        // Do any additional setup after loading the view.
         
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -71,17 +76,26 @@ class InvestPlanViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView.tag == 1 {
-            invest_amount_tf.text = "\(amount_data[row])"
+            invest_amount_tf.text = "\(amount_data[row])千元"
         }
         if pickerView.tag == 2 {
-            invest_time_tf.text = "\(time_data[row])"
+            invest_time_tf.text = "\(time_data[row])个月"
         }
     }
     
     func hideKeyboard(tapG:UITapGestureRecognizer)  {
         self.view.endEditing(true)
     }
-
+    // MARK: - Actions
+    
+    @IBAction func checkTypeChanged(_ sender: M13Checkbox) {
+        if sender.checkState == .checked{
+            self.checkMark = true
+        }
+        if sender.checkState == .unchecked{
+            self.checkMark = false
+        }
+    }
     /*
     // MARK: - Navigation
 

@@ -1,0 +1,6 @@
+framework module Pods_CitiBank {
+  umbrella header "Pods-CitiBank-umbrella.h"
+
+  export *
+  module * { export * }
+}

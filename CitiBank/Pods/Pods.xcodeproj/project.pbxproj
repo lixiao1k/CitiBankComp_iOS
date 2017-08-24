@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003F09B81113F6F23C5ECF666461D0FE /* Pods-CitiBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB93356278CC869B7829E79DA746F9D /* Pods-CitiBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21D492B806BF36EDEB6FD9735FCCCCB9 /* Pods-CitiBankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1418CB3E6A41B37A6739BFB16CB8219 /* Pods-CitiBankTests-dummy.m */; };
+		2B4D47041FAAED02E50F01E26639E0A0 /* Pods-CitiBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56C7104E8616EFCB5F2E43167A6482 /* Pods-CitiBank-dummy.m */; };
+		3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F93834CD98074F5EBE49A489F624EE8 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DB48EA2FE37876B45D6663E6E42F66 /* M13CheckboxFlatController.swift */; };
+		3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AF2BB6A417AE105E0EDC4F2C6D96E /* M13Checkbox+IB.swift */; };
+		40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9870FF8D8BF4F59504FB90440400DA4 /* M13CheckboxStrokeController.swift */; };
+		445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F7712F6B9BF9E08E41362EFA62CAF /* M13Checkbox.swift */; };
+		5AB26424C72C44DF2380CB5D6B349FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE2FE339D9293F5F14AAF690E3701AD /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B50CB958D9C9D601E9BD93B20BC9CC0 /* M13CheckboxPathGenerator.swift */; };
+		7D1A4F57ECCE5549B3D7D59E7BBDFF16 /* Pods-CitiBankTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE8F34B9831A7E21E155BB05C2616F6 /* Pods-CitiBankTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC630B8A4945AACB04A9526059523B /* M13CheckboxFillController.swift */; };
+		80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC636134A234526C7BE31EC85ED4F11 /* M13CheckboxDotController.swift */; };
+		85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290973E2772E414D936A27E54FA569D0 /* M13CheckboxRadioPathGenerator.swift */; };
+		8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0433ED054D23BF21955976C70C38115 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		900B6F52434A35E9F88CE6D22F0E5160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		92AFFB45085BA809F46F186B6496ADE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
+		A566AFF200626888414812DDCF47D369 /* Pods-CitiBankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119AD667AB4BE6C8F842FD629E9ABB27 /* Pods-CitiBankUITests-dummy.m */; };
+		AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D8DE6EF3DFF6462F210730AAED61BC /* M13Checkbox-dummy.m */; };
+		B3DA3002A1DDE85651FC4D1CA1F0EA9A /* Pods-CitiBankUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0250FDF1174CF0E922025368BFD5EF34 /* Pods-CitiBankUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9F2E9FBAE665202191AC2AEEA5A18 /* M13CheckboxExpandController.swift */; };
+		C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937E968256B967D21EAB369A281E1B4 /* M13CheckboxController.swift */; };
+		C42E0A563F3949950979C1C59D1311AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E232599B46EB5C769F5E5E5B01B018A /* M13CheckboxAnimationGenerator.swift */; };
+		C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C797BEB2EE46B7F38D742CA3F04017 /* M13CheckboxCheckPathGenerator.swift */; };
+		CF5E5F6B655B3969416B1AA2F99D1748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37922C46EB57CD264A04C85E1A5D307F /* M13CheckboxGestureRecognizer.swift */; };
+		EAFC0EA4762962766C946FC37569310A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
+		F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0BFAA62ABA68B423971339C7A71ECF /* M13CheckboxBounceController.swift */; };
+		FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3880A6D0BB81DF6EC558FE6F58C67 /* M13CheckboxSpiralController.swift */; };
+		FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E72E640456E6D61B92773E1A87DF17 /* M13CheckboxFadeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2AC6904C244139DB5F52E956D20183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A9DD9ABBF08BC57372A26C35327BF1;
+			remoteInfo = M13Checkbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F92301526FC0E6F4958033CEDFC9F7 /* Pods-CitiBankUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankUITests-resources.sh"; sourceTree = "<group>"; };
+		0250FDF1174CF0E922025368BFD5EF34 /* Pods-CitiBankUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CitiBankUITests-umbrella.h"; sourceTree = "<group>"; };
+		0B8FD8160971340202B2C5BBD9E7DF63 /* Pods_CitiBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBankUITests.framework; path = "Pods-CitiBankUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F93834CD98074F5EBE49A489F624EE8 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		0FE2FE339D9293F5F14AAF690E3701AD /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		10F45E5F936003A2CAF917461AE9668A /* Pods-CitiBankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CitiBankTests.modulemap"; sourceTree = "<group>"; };
+		119AD667AB4BE6C8F842FD629E9ABB27 /* Pods-CitiBankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CitiBankUITests-dummy.m"; sourceTree = "<group>"; };
+		11E72E640456E6D61B92773E1A87DF17 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		1EF9F2E9FBAE665202191AC2AEEA5A18 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		20E0849C0E7C8C407E33E4D700067E46 /* Pods-CitiBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26A206548D09AEDC0CC17D0FA0A17DD5 /* Pods_CitiBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBank.framework; path = "Pods-CitiBank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290973E2772E414D936A27E54FA569D0 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		2DE8F34B9831A7E21E155BB05C2616F6 /* Pods-CitiBankTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CitiBankTests-umbrella.h"; sourceTree = "<group>"; };
+		37922C46EB57CD264A04C85E1A5D307F /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		3D6AF2BB6A417AE105E0EDC4F2C6D96E /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		4EC636134A234526C7BE31EC85ED4F11 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		5322EF50D60555C35F608FC80A9F108F /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0312D07FF919C1FC2A7BDC7BDA79EA /* Pods-CitiBankUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CitiBankUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B7A923F487B954C5599D8A8EEE58CD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C56C7104E8616EFCB5F2E43167A6482 /* Pods-CitiBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CitiBank-dummy.m"; sourceTree = "<group>"; };
+		5E232599B46EB5C769F5E5E5B01B018A /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		70C797BEB2EE46B7F38D742CA3F04017 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		7C28F48511775E238AD423B54695157A /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		7FB93356278CC869B7829E79DA746F9D /* Pods-CitiBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CitiBank-umbrella.h"; sourceTree = "<group>"; };
+		855F7712F6B9BF9E08E41362EFA62CAF /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		8627BC620B6C7C7E45D30E136690B475 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		8880B760FBD36FBDA5CB3109B5CA209A /* Pods-CitiBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBank-frameworks.sh"; sourceTree = "<group>"; };
+		89A1585D7AADEBEA63AB6BA7634A1D51 /* Pods-CitiBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBank.debug.xcconfig"; sourceTree = "<group>"; };
+		8B50CB958D9C9D601E9BD93B20BC9CC0 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		8BB3880A6D0BB81DF6EC558FE6F58C67 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		8DC080E66AC25B593FB7162282B9954F /* Pods-CitiBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CitiBank-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9621FC149593920F5D3EFAF91B98F55A /* Pods-CitiBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CitiBank.modulemap"; sourceTree = "<group>"; };
+		976EA54433694AEAF76322533446B7E8 /* Pods-CitiBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		9937E968256B967D21EAB369A281E1B4 /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9C07BDBB42B8608825A3E5BF06BA5782 /* Pods-CitiBankTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CitiBankTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F09EA9E5068F8D7467E16F81D34541F /* Pods-CitiBankTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankTests-resources.sh"; sourceTree = "<group>"; };
+		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC11C76668DF20EFB64A2C948D86C219 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD489FF3D6C9A951A0DE52D390A07050 /* Pods-CitiBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3939D8DB5CBEA159E70EE052228C981 /* Pods-CitiBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBank.release.xcconfig"; sourceTree = "<group>"; };
+		B8EFBA6802C5E612F68611BD6E0933F8 /* Pods-CitiBankTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankTests-frameworks.sh"; sourceTree = "<group>"; };
+		B9870FF8D8BF4F59504FB90440400DA4 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		B9FC630B8A4945AACB04A9526059523B /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		BC0BFAA62ABA68B423971339C7A71ECF /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		BCD8C9650C634417D43ADD49C2F60910 /* Pods-CitiBankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CitiBankTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0433ED054D23BF21955976C70C38115 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0B1CF5A28D0CA9C54DF4DC8231D681E /* Pods-CitiBankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CitiBankUITests.modulemap"; sourceTree = "<group>"; };
+		D8ABDEA51C6B85487A3DC7E4A21ED46B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBDD962ABACA1A244AC83D4F35D1C69 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		E05068A0D0CEB67DEEFF7EBC20EA4CCA /* Pods-CitiBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1418CB3E6A41B37A6739BFB16CB8219 /* Pods-CitiBankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CitiBankTests-dummy.m"; sourceTree = "<group>"; };
+		E2DB48EA2FE37876B45D6663E6E42F66 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		E6D8DE6EF3DFF6462F210730AAED61BC /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		E773BC028ED2776A80999780ED3C03B9 /* Pods-CitiBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CitiBank-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA79C77638E302024D093C58FC450545 /* Pods-CitiBankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CitiBankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDF53770C69E363350299867ABFF8599 /* Pods-CitiBank-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBank-resources.sh"; sourceTree = "<group>"; };
+		FA1D3B703722B319BE2C8E44A2E23196 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAD56C864DFB4C0F338EF4528DD656D /* Pods_CitiBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBankTests.framework; path = "Pods-CitiBankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEC186767E8E2B3A476D5AEC5157B78 /* Pods-CitiBankUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankUITests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C54175FADEAA8DC8AA32BBB690D606C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42E0A563F3949950979C1C59D1311AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53797C5F84C3B718634123945FF8378E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC0EA4762962766C946FC37569310A /* CoreGraphics.framework in Frameworks */,
+				900B6F52434A35E9F88CE6D22F0E5160 /* Foundation.framework in Frameworks */,
+				92AFFB45085BA809F46F186B6496ADE5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A820C4CC87256159C8DBEF7F002E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5E5F6B655B3969416B1AA2F99D1748 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A003005FA34EEEA4ABB60801D866AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB26424C72C44DF2380CB5D6B349FBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BF2247BF9F39E7FB9935E2137887998 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D31FEFAA7A261528CE59A5AB04CFDDD3 /* M13Checkbox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C9FBF3AD4A41728E4807BB6DC41320C /* Pods-CitiBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8ABDEA51C6B85487A3DC7E4A21ED46B /* Info.plist */,
+				D0B1CF5A28D0CA9C54DF4DC8231D681E /* Pods-CitiBankUITests.modulemap */,
+				EA79C77638E302024D093C58FC450545 /* Pods-CitiBankUITests-acknowledgements.markdown */,
+				5B0312D07FF919C1FC2A7BDC7BDA79EA /* Pods-CitiBankUITests-acknowledgements.plist */,
+				119AD667AB4BE6C8F842FD629E9ABB27 /* Pods-CitiBankUITests-dummy.m */,
+				FFEC186767E8E2B3A476D5AEC5157B78 /* Pods-CitiBankUITests-frameworks.sh */,
+				01F92301526FC0E6F4958033CEDFC9F7 /* Pods-CitiBankUITests-resources.sh */,
+				0250FDF1174CF0E922025368BFD5EF34 /* Pods-CitiBankUITests-umbrella.h */,
+				E05068A0D0CEB67DEEFF7EBC20EA4CCA /* Pods-CitiBankUITests.debug.xcconfig */,
+				20E0849C0E7C8C407E33E4D700067E46 /* Pods-CitiBankUITests.release.xcconfig */,
+			);
+			name = "Pods-CitiBankUITests";
+			path = "Target Support Files/Pods-CitiBankUITests";
+			sourceTree = "<group>";
+		};
+		477B05CCA32C018EB950C26C49DE3CB8 /* Pods-CitiBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A923F487B954C5599D8A8EEE58CD5 /* Info.plist */,
+				10F45E5F936003A2CAF917461AE9668A /* Pods-CitiBankTests.modulemap */,
+				9C07BDBB42B8608825A3E5BF06BA5782 /* Pods-CitiBankTests-acknowledgements.markdown */,
+				BCD8C9650C634417D43ADD49C2F60910 /* Pods-CitiBankTests-acknowledgements.plist */,
+				E1418CB3E6A41B37A6739BFB16CB8219 /* Pods-CitiBankTests-dummy.m */,
+				B8EFBA6802C5E612F68611BD6E0933F8 /* Pods-CitiBankTests-frameworks.sh */,
+				9F09EA9E5068F8D7467E16F81D34541F /* Pods-CitiBankTests-resources.sh */,
+				2DE8F34B9831A7E21E155BB05C2616F6 /* Pods-CitiBankTests-umbrella.h */,
+				AD489FF3D6C9A951A0DE52D390A07050 /* Pods-CitiBankTests.debug.xcconfig */,
+				976EA54433694AEAF76322533446B7E8 /* Pods-CitiBankTests.release.xcconfig */,
+			);
+			name = "Pods-CitiBankTests";
+			path = "Target Support Files/Pods-CitiBankTests";
+			sourceTree = "<group>";
+		};
+		6755351A91515B74AF555F06531B94E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC11C76668DF20EFB64A2C948D86C219 /* Info.plist */,
+				8627BC620B6C7C7E45D30E136690B475 /* M13Checkbox.modulemap */,
+				DDBDD962ABACA1A244AC83D4F35D1C69 /* M13Checkbox.xcconfig */,
+				E6D8DE6EF3DFF6462F210730AAED61BC /* M13Checkbox-dummy.m */,
+				7C28F48511775E238AD423B54695157A /* M13Checkbox-prefix.pch */,
+				0FE2FE339D9293F5F14AAF690E3701AD /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		6CE7996B2BFB10887ADB326AB8A908CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5322EF50D60555C35F608FC80A9F108F /* M13Checkbox.framework */,
+				26A206548D09AEDC0CC17D0FA0A17DD5 /* Pods_CitiBank.framework */,
+				FAAD56C864DFB4C0F338EF4528DD656D /* Pods_CitiBankTests.framework */,
+				0B8FD8160971340202B2C5BBD9E7DF63 /* Pods_CitiBankUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				1BF2247BF9F39E7FB9935E2137887998 /* Pods */,
+				6CE7996B2BFB10887ADB326AB8A908CF /* Products */,
+				D5D53FEEDC0F65D5030D9897CED3E2B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
+				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
+				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C65D72EEAC6660D9BA3F44CE6AF9D991 /* Pods-CitiBank */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D3B703722B319BE2C8E44A2E23196 /* Info.plist */,
+				9621FC149593920F5D3EFAF91B98F55A /* Pods-CitiBank.modulemap */,
+				E773BC028ED2776A80999780ED3C03B9 /* Pods-CitiBank-acknowledgements.markdown */,
+				8DC080E66AC25B593FB7162282B9954F /* Pods-CitiBank-acknowledgements.plist */,
+				5C56C7104E8616EFCB5F2E43167A6482 /* Pods-CitiBank-dummy.m */,
+				8880B760FBD36FBDA5CB3109B5CA209A /* Pods-CitiBank-frameworks.sh */,
+				EDF53770C69E363350299867ABFF8599 /* Pods-CitiBank-resources.sh */,
+				7FB93356278CC869B7829E79DA746F9D /* Pods-CitiBank-umbrella.h */,
+				89A1585D7AADEBEA63AB6BA7634A1D51 /* Pods-CitiBank.debug.xcconfig */,
+				B3939D8DB5CBEA159E70EE052228C981 /* Pods-CitiBank.release.xcconfig */,
+			);
+			name = "Pods-CitiBank";
+			path = "Target Support Files/Pods-CitiBank";
+			sourceTree = "<group>";
+		};
+		D31FEFAA7A261528CE59A5AB04CFDDD3 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				855F7712F6B9BF9E08E41362EFA62CAF /* M13Checkbox.swift */,
+				3D6AF2BB6A417AE105E0EDC4F2C6D96E /* M13Checkbox+IB.swift */,
+				C0433ED054D23BF21955976C70C38115 /* M13CheckboxAddRemovePathGenerator.swift */,
+				5E232599B46EB5C769F5E5E5B01B018A /* M13CheckboxAnimationGenerator.swift */,
+				BC0BFAA62ABA68B423971339C7A71ECF /* M13CheckboxBounceController.swift */,
+				70C797BEB2EE46B7F38D742CA3F04017 /* M13CheckboxCheckPathGenerator.swift */,
+				9937E968256B967D21EAB369A281E1B4 /* M13CheckboxController.swift */,
+				0F93834CD98074F5EBE49A489F624EE8 /* M13CheckboxDisclosurePathGenerator.swift */,
+				4EC636134A234526C7BE31EC85ED4F11 /* M13CheckboxDotController.swift */,
+				1EF9F2E9FBAE665202191AC2AEEA5A18 /* M13CheckboxExpandController.swift */,
+				11E72E640456E6D61B92773E1A87DF17 /* M13CheckboxFadeController.swift */,
+				B9FC630B8A4945AACB04A9526059523B /* M13CheckboxFillController.swift */,
+				E2DB48EA2FE37876B45D6663E6E42F66 /* M13CheckboxFlatController.swift */,
+				37922C46EB57CD264A04C85E1A5D307F /* M13CheckboxGestureRecognizer.swift */,
+				8B50CB958D9C9D601E9BD93B20BC9CC0 /* M13CheckboxPathGenerator.swift */,
+				290973E2772E414D936A27E54FA569D0 /* M13CheckboxRadioPathGenerator.swift */,
+				8BB3880A6D0BB81DF6EC558FE6F58C67 /* M13CheckboxSpiralController.swift */,
+				B9870FF8D8BF4F59504FB90440400DA4 /* M13CheckboxStrokeController.swift */,
+				6755351A91515B74AF555F06531B94E0 /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		D5D53FEEDC0F65D5030D9897CED3E2B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C65D72EEAC6660D9BA3F44CE6AF9D991 /* Pods-CitiBank */,
+				477B05CCA32C018EB950C26C49DE3CB8 /* Pods-CitiBankTests */,
+				2C9FBF3AD4A41728E4807BB6DC41320C /* Pods-CitiBankUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B0DCB59F0C634DAF33278D909EFB66D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1A4F57ECCE5549B3D7D59E7BBDFF16 /* Pods-CitiBankTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261209CFEEFF51D2FC5B89162C720774 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F09B81113F6F23C5ECF666461D0FE /* Pods-CitiBank-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714DC262BF2FB332E82AC2E7CD6D73D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86203C9D2D42477C6D6B5D69640B8740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DA3002A1DDE85651FC4D1CA1F0EA9A /* Pods-CitiBankUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08913436C5D3DFB2C8CEA353ED9FF003 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				923F4E7F3A2B8E74326EFD309DCEEE04 /* Sources */,
+				53797C5F84C3B718634123945FF8378E /* Frameworks */,
+				714DC262BF2FB332E82AC2E7CD6D73D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 5322EF50D60555C35F608FC80A9F108F /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33FF863E88DCF887CDD6E0F4A2EA5F2E /* Pods-CitiBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ACDE857025D7D37E20A05646B7980D2 /* Build configuration list for PBXNativeTarget "Pods-CitiBankTests" */;
+			buildPhases = (
+				14C09610A5D2FFD8A198CE721CBC4701 /* Sources */,
+				3C54175FADEAA8DC8AA32BBB690D606C /* Frameworks */,
+				0B0DCB59F0C634DAF33278D909EFB66D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CitiBankTests";
+			productName = "Pods-CitiBankTests";
+			productReference = FAAD56C864DFB4C0F338EF4528DD656D /* Pods_CitiBankTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40E06BEEBA1D2EEE038B7E6207365879 /* Pods-CitiBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BECD3539FCE06FCFAFACDFE8EDE46F4 /* Build configuration list for PBXNativeTarget "Pods-CitiBankUITests" */;
+			buildPhases = (
+				BE8204D3A8787EB56929526B6A390C72 /* Sources */,
+				E2A003005FA34EEEA4ABB60801D866AF /* Frameworks */,
+				86203C9D2D42477C6D6B5D69640B8740 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CitiBankUITests";
+			productName = "Pods-CitiBankUITests";
+			productReference = 0B8FD8160971340202B2C5BBD9E7DF63 /* Pods_CitiBankUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FFD538A828CE23D05F2392DDB6C64FE /* Pods-CitiBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28A9387DAE992B06617E15294AAF84F /* Build configuration list for PBXNativeTarget "Pods-CitiBank" */;
+			buildPhases = (
+				830001E58A353DCF7819EA75567F4A84 /* Sources */,
+				76A820C4CC87256159C8DBEF7F002E52 /* Frameworks */,
+				261209CFEEFF51D2FC5B89162C720774 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC892AAC836A669527E70DC0258A6A9D /* PBXTargetDependency */,
+			);
+			name = "Pods-CitiBank";
+			productName = "Pods-CitiBank";
+			productReference = 26A206548D09AEDC0CC17D0FA0A17DD5 /* Pods_CitiBank.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6CE7996B2BFB10887ADB326AB8A908CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */,
+				4FFD538A828CE23D05F2392DDB6C64FE /* Pods-CitiBank */,
+				33FF863E88DCF887CDD6E0F4A2EA5F2E /* Pods-CitiBankTests */,
+				40E06BEEBA1D2EEE038B7E6207365879 /* Pods-CitiBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C09610A5D2FFD8A198CE721CBC4701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D492B806BF36EDEB6FD9735FCCCCB9 /* Pods-CitiBankTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830001E58A353DCF7819EA75567F4A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4D47041FAAED02E50F01E26639E0A0 /* Pods-CitiBank-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4E7F3A2B8E74326EFD309DCEEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */,
+				AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */,
+				445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */,
+				8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */,
+				C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */,
+				3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */,
+				BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */,
+				FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */,
+				80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */,
+				3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */,
+				D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */,
+				76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */,
+				85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */,
+				40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8204D3A8787EB56929526B6A390C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A566AFF200626888414812DDCF47D369 /* Pods-CitiBankUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC892AAC836A669527E70DC0258A6A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */;
+			targetProxy = 2D2AC6904C244139DB5F52E956D20183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A145CA432B66582336FDC32A0B73286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E0849C0E7C8C407E33E4D700067E46 /* Pods-CitiBankUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CitiBankUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CitiBankUITests/Pods-CitiBankUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CitiBankUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		39F267BC39474735E880643778621D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05068A0D0CEB67DEEFF7EBC20EA4CCA /* Pods-CitiBankUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CitiBankUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CitiBankUITests/Pods-CitiBankUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CitiBankUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AC16E45A9DB172C5C7048F63908B3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD489FF3D6C9A951A0DE52D390A07050 /* Pods-CitiBankTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CitiBankTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CitiBankTests/Pods-CitiBankTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CitiBankTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B817DFC476867BD02DA7E3B92FA88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBDD962ABACA1A244AC83D4F35D1C69 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F7AA469D5B3C0204DF47697C2977D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBDD962ABACA1A244AC83D4F35D1C69 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9F08BD185F835CC00C2DFE557CD32F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976EA54433694AEAF76322533446B7E8 /* Pods-CitiBankTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CitiBankTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CitiBankTests/Pods-CitiBankTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CitiBankTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D26DCEE5822475A3445E0C695DC9761A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A1585D7AADEBEA63AB6BA7634A1D51 /* Pods-CitiBank.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CitiBank/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CitiBank/Pods-CitiBank.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CitiBank;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F74824CFA16772279FC4F762AE45DDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3939D8DB5CBEA159E70EE052228C981 /* Pods-CitiBank.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CitiBank/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CitiBank/Pods-CitiBank.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CitiBank;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08913436C5D3DFB2C8CEA353ED9FF003 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7AA469D5B3C0204DF47697C2977D5D /* Debug */,
+				5B817DFC476867BD02DA7E3B92FA88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ACDE857025D7D37E20A05646B7980D2 /* Build configuration list for PBXNativeTarget "Pods-CitiBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC16E45A9DB172C5C7048F63908B3D1 /* Debug */,
+				A9F08BD185F835CC00C2DFE557CD32F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BECD3539FCE06FCFAFACDFE8EDE46F4 /* Build configuration list for PBXNativeTarget "Pods-CitiBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F267BC39474735E880643778621D37 /* Debug */,
+				0A145CA432B66582336FDC32A0B73286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28A9387DAE992B06617E15294AAF84F /* Build configuration list for PBXNativeTarget "Pods-CitiBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26DCEE5822475A3445E0C695DC9761A /* Debug */,
+				F74824CFA16772279FC4F762AE45DDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
