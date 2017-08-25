@@ -15,6 +15,10 @@
 		097B9AB71F4878D700EAF825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097B9AB51F4878D700EAF825 /* LaunchScreen.storyboard */; };
 		097B9AC21F4878D700EAF825 /* CitiBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9AC11F4878D700EAF825 /* CitiBankTests.swift */; };
 		097B9ACD1F4878D700EAF825 /* CitiBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9ACC1F4878D700EAF825 /* CitiBankUITests.swift */; };
+		098882F71F4EC1F20016E396 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098882F61F4EC1F20016E396 /* PayViewController.swift */; };
+		098882F91F4EC6000016E396 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098882F81F4EC6000016E396 /* SweetAlert.swift */; };
+		098882FB1F4EDB720016E396 /* InvestScatteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098882FA1F4EDB720016E396 /* InvestScatteredViewController.swift */; };
+		098882FD1F4EFC070016E396 /* BDCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098882FC1F4EFC070016E396 /* BDCellTableViewCell.swift */; };
 		0998375D1F4AA51D00253208 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998375C1F4AA51D00253208 /* InvestViewController.swift */; };
 		0998375F1F4AFEA800253208 /* BorrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998375E1F4AFEA800253208 /* BorrowViewController.swift */; };
 		099837631F4B1AAA00253208 /* ReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099837621F4B1AAA00253208 /* ReturnViewController.swift */; };
@@ -60,6 +64,10 @@
 		097B9AC81F4878D700EAF825 /* CitiBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		097B9ACC1F4878D700EAF825 /* CitiBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiBankUITests.swift; sourceTree = "<group>"; };
 		097B9ACE1F4878D700EAF825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		098882F61F4EC1F20016E396 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		098882F81F4EC6000016E396 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		098882FA1F4EDB720016E396 /* InvestScatteredViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestScatteredViewController.swift; sourceTree = "<group>"; };
+		098882FC1F4EFC070016E396 /* BDCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCellTableViewCell.swift; sourceTree = "<group>"; };
 		0998375C1F4AA51D00253208 /* InvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
 		0998375E1F4AFEA800253208 /* BorrowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrowViewController.swift; sourceTree = "<group>"; };
 		099837621F4B1AAA00253208 /* ReturnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReturnViewController.swift; path = ../ReturnViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +156,7 @@
 				098882F11F4D8ECF0016E396 /* Invest */,
 				099837621F4B1AAA00253208 /* ReturnViewController.swift */,
 				097B9AAC1F4878D700EAF825 /* AppDelegate.swift */,
+				098882F81F4EC6000016E396 /* SweetAlert.swift */,
 				097B9AAE1F4878D700EAF825 /* ViewController.swift */,
 				099837661F4BCBDE00253208 /* UIView_Button.swift */,
 				097B9AB01F4878D700EAF825 /* Main.storyboard */,
@@ -186,6 +195,9 @@
 			children = (
 				0998376A1F4C171300253208 /* Invest.storyboard */,
 				0998376E1F4C38DF00253208 /* InvestPlanViewController.swift */,
+				098882F61F4EC1F20016E396 /* PayViewController.swift */,
+				098882FA1F4EDB720016E396 /* InvestScatteredViewController.swift */,
+				098882FC1F4EFC070016E396 /* BDCellTableViewCell.swift */,
 			);
 			name = Invest;
 			sourceTree = "<group>";
@@ -491,10 +503,14 @@
 				099837651F4B252500253208 /* ReturnTableViewCell.swift in Sources */,
 				099837631F4B1AAA00253208 /* ReturnViewController.swift in Sources */,
 				097B9AAD1F4878D700EAF825 /* AppDelegate.swift in Sources */,
+				098882FB1F4EDB720016E396 /* InvestScatteredViewController.swift in Sources */,
 				0924E86C1F493190004B1FC4 /* HomeViewController.swift in Sources */,
 				0998375F1F4AFEA800253208 /* BorrowViewController.swift in Sources */,
+				098882F71F4EC1F20016E396 /* PayViewController.swift in Sources */,
 				0998376F1F4C38DF00253208 /* InvestPlanViewController.swift in Sources */,
+				098882FD1F4EFC070016E396 /* BDCellTableViewCell.swift in Sources */,
 				0998376D1F4C267E00253208 /* Picker_TextField.swift in Sources */,
+				098882F91F4EC6000016E396 /* SweetAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

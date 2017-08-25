@@ -6,7 +6,8 @@ target 'CitiBank' do
   use_frameworks!
 
   # Pods for CitiBank
-pod 'M13Checkbox'
+  pod 'M13Checkbox'
+  pod 'TwicketSegmentedControl'
   target 'CitiBankTests' do
     inherit! :search_paths
     # Pods for testing

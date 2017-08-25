@@ -54,16 +54,12 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         pageControl.addTarget(self, action: #selector(pageChanged(_sender:)), for: .valueChanged)
         //为自定义view添加监听
         inv_plan_view.addOnClickListener(target: self, action: #selector(goInvestPlan))
+        inv_scat_view.addOnClickListener(target: self, action: #selector(goInvestScattered))
         
 
         // Do any additional setup after loading the view.
     }
     
-    
-    func goInvestPlan() {
-        let viewController = UIStoryboard(name:"Invest", bundle: nil).instantiateViewController(withIdentifier: "Invest_Plan") as UIViewController
-        self.navigationController?.pushViewController(viewController, animated: true)
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -75,6 +71,8 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         pageControl.currentPage = page
     }
     
+    // MARK: - 动作
+    
     //点击页面控件时时间处理
     func pageChanged(_sender: UIPageControl){
         var frame = scrollPane.frame
@@ -85,8 +83,19 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         
     }
     
-    
     //四个板块的监听方法
+    func goInvestPlan() {
+        let viewController = UIStoryboard(name:"Invest", bundle: nil).instantiateViewController(withIdentifier: "Invest_Plan") as UIViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+    func goInvestScattered(){
+        let viewController = UIStoryboard(name: "Invest", bundle: nil).instantiateViewController(withIdentifier: "InvestScattered") as UIViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+    
+
     
     
     

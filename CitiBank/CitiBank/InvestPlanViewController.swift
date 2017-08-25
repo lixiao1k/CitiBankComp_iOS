@@ -15,11 +15,12 @@ class InvestPlanViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
     
     @IBOutlet weak var invest_time_tf: Picker_TextField!
     
+    @IBOutlet weak var textview: UITextView!
     @IBOutlet weak var agree_label: UILabel!
     
     var amount_data = [1,2,3,4,5,6,7,8,9]
     var time_data = [1,3,6,9,12]
-    var checkMark: Bool! //判断是否同意协议
+    var checkMark: Bool = false //判断是否同意协议
     
 //    
     override func viewDidLoad() {
@@ -41,6 +42,11 @@ class InvestPlanViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
         let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard(tapG:)))
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)
+        
+        //设置textview边框
+        textview.layer.borderColor = UIColor.lightGray.cgColor
+        textview.layer.borderWidth = 1
+        
         
     }
 
@@ -96,6 +102,21 @@ class InvestPlanViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
             self.checkMark = false
         }
     }
+    
+    @IBAction func cancel(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
+    @IBAction func invest(_ sender: UIButton) {
+        if self.checkMark == false {
+            SweetAlert().showAlert("失败", subTitle:"您未同意协议书",style: .error)
+        }else{
+            let viewControlelr = UIStoryboard(name:"Invest", bundle: nil).instantiateViewController(withIdentifier: "pay") as UIViewController
+            navigationController?.pushViewController(viewControlelr, animated: true)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

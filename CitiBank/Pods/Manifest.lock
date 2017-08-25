@@ -1,12 +1,15 @@
 PODS:
   - M13Checkbox (3.1.3)
+  - TwicketSegmentedControl (0.1.2)
 
 DEPENDENCIES:
   - M13Checkbox
+  - TwicketSegmentedControl
 
 SPEC CHECKSUMS:
   M13Checkbox: c132a7e0eb964731855eff67b883a0b21b7c0977
+  TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
 
-PODFILE CHECKSUM: 32d80dfafded2d1839feb244f6c0f30acfeba117
+PODFILE CHECKSUM: 332d84cd7287f5d7dad9f919d577d59478679dcc
 
 COCOAPODS: 1.2.1
