@@ -126,6 +126,10 @@ class InvestScatteredViewController: UIViewController,TwicketSegmentedControlDel
         
         return cell!
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let viewController = UIStoryboard(name:"Invest", bundle: nil).instantiateViewController(withIdentifier: "pay") as UIViewController
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 
     /*
     // MARK: - Navigation

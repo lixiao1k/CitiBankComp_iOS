@@ -1466,7 +1466,7 @@
         <!--还款-->
         <scene sceneID="XD2-7F-Zvv">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qsQ-qD-XFy" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Repay_Navigation" automaticallyAdjustsScrollViewInsets="NO" id="qsQ-qD-XFy" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="还款" image="repay" selectedImage="repay" id="Pkt-kt-mea">
                         <inset key="imageInsets" minX="3" minY="3" maxX="3" maxY="3"/>
                     </tabBarItem>

@@ -39,5 +39,20 @@ class BDCellTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }
+
+//extension UITableViewCell {
+//    func getCurrentViewController() -> UIViewController? {
+//        let window = UIApplication.shared.keyWindow
+//        let navigationController = window?.rootViewController
+//        let navigation = navigationController as! UINavigationController
+//        return navigation.topViewController!
+//    }
+//}
+
+
+
+
+
+
+
