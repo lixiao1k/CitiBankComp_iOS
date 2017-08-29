@@ -1,15 +1,18 @@
 PODS:
   - M13Checkbox (3.1.3)
+  - TextFieldEffects (1.3.3)
   - TwicketSegmentedControl (0.1.2)
 
 DEPENDENCIES:
   - M13Checkbox
+  - TextFieldEffects
   - TwicketSegmentedControl
 
 SPEC CHECKSUMS:
   M13Checkbox: c132a7e0eb964731855eff67b883a0b21b7c0977
+  TextFieldEffects: 8706f53525f1ce51c8921b7af32237caab50c467
   TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
 
-PODFILE CHECKSUM: 332d84cd7287f5d7dad9f919d577d59478679dcc
+PODFILE CHECKSUM: 760dae5ac74d5988e9e260e306c7642cba718ed2
 
 COCOAPODS: 1.2.1

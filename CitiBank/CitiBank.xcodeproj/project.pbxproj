@@ -19,6 +19,8 @@
 		098882F91F4EC6000016E396 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098882F81F4EC6000016E396 /* SweetAlert.swift */; };
 		098882FB1F4EDB720016E396 /* InvestScatteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098882FA1F4EDB720016E396 /* InvestScatteredViewController.swift */; };
 		098882FD1F4EFC070016E396 /* BDCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098882FC1F4EFC070016E396 /* BDCellTableViewCell.swift */; };
+		098883041F5015950016E396 /* Loan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098883031F5015950016E396 /* Loan.storyboard */; };
+		098883061F5022BA0016E396 /* LabelUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098883051F5022BA0016E396 /* LabelUIButton.swift */; };
 		0998375D1F4AA51D00253208 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998375C1F4AA51D00253208 /* InvestViewController.swift */; };
 		0998375F1F4AFEA800253208 /* BorrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998375E1F4AFEA800253208 /* BorrowViewController.swift */; };
 		099837631F4B1AAA00253208 /* ReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099837621F4B1AAA00253208 /* ReturnViewController.swift */; };
@@ -27,6 +29,8 @@
 		0998376B1F4C171300253208 /* Invest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0998376A1F4C171300253208 /* Invest.storyboard */; };
 		0998376D1F4C267E00253208 /* Picker_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998376C1F4C267D00253208 /* Picker_TextField.swift */; };
 		0998376F1F4C38DF00253208 /* InvestPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998376E1F4C38DF00253208 /* InvestPlanViewController.swift */; };
+		09E684441F55C377002DF494 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E684431F55C377002DF494 /* LoginViewController.swift */; };
+		09E684461F55C744002DF494 /* LogUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E684451F55C744002DF494 /* LogUpViewController.swift */; };
 		3B74A94A47B4D8C6FF0A9906 /* Pods_CitiBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8F996C9EA5D475F2AB9313 /* Pods_CitiBank.framework */; };
 		B962FF2BD36FE22B2D3AB55D /* Pods_CitiBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4B3A0FCC05A2B950904053 /* Pods_CitiBankUITests.framework */; };
 		C1B1E21D8C8D76DD97A3D95F /* Pods_CitiBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD3C09D1D04CD1F1A0834F4 /* Pods_CitiBankTests.framework */; };
@@ -68,6 +72,8 @@
 		098882F81F4EC6000016E396 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
 		098882FA1F4EDB720016E396 /* InvestScatteredViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestScatteredViewController.swift; sourceTree = "<group>"; };
 		098882FC1F4EFC070016E396 /* BDCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCellTableViewCell.swift; sourceTree = "<group>"; };
+		098883031F5015950016E396 /* Loan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loan.storyboard; sourceTree = "<group>"; };
+		098883051F5022BA0016E396 /* LabelUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelUIButton.swift; sourceTree = "<group>"; };
 		0998375C1F4AA51D00253208 /* InvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
 		0998375E1F4AFEA800253208 /* BorrowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrowViewController.swift; sourceTree = "<group>"; };
 		099837621F4B1AAA00253208 /* ReturnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReturnViewController.swift; path = ../ReturnViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 		0998376A1F4C171300253208 /* Invest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Invest.storyboard; sourceTree = "<group>"; };
 		0998376C1F4C267D00253208 /* Picker_TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker_TextField.swift; sourceTree = "<group>"; };
 		0998376E1F4C38DF00253208 /* InvestPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestPlanViewController.swift; sourceTree = "<group>"; };
+		09E684431F55C377002DF494 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		09E684451F55C744002DF494 /* LogUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUpViewController.swift; sourceTree = "<group>"; };
 		3CD3C09D1D04CD1F1A0834F4 /* Pods_CitiBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitiBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5098E55147AD6029ABA06A30 /* Pods-CitiBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-CitiBank/Pods-CitiBank.release.xcconfig"; sourceTree = "<group>"; };
 		564C9C77472E74EFAEAEE56E /* Pods-CitiBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiBankUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CitiBankUITests/Pods-CitiBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +161,7 @@
 		097B9AAB1F4878D700EAF825 /* CitiBank */ = {
 			isa = PBXGroup;
 			children = (
+				098883021F50156F0016E396 /* Loan */,
 				098882F11F4D8ECF0016E396 /* Invest */,
 				099837621F4B1AAA00253208 /* ReturnViewController.swift */,
 				097B9AAC1F4878D700EAF825 /* AppDelegate.swift */,
@@ -160,6 +169,8 @@
 				097B9AAE1F4878D700EAF825 /* ViewController.swift */,
 				099837661F4BCBDE00253208 /* UIView_Button.swift */,
 				097B9AB01F4878D700EAF825 /* Main.storyboard */,
+				09E684451F55C744002DF494 /* LogUpViewController.swift */,
+				09E684431F55C377002DF494 /* LoginViewController.swift */,
 				0998376C1F4C267D00253208 /* Picker_TextField.swift */,
 				099837641F4B252500253208 /* ReturnTableViewCell.swift */,
 				0998375E1F4AFEA800253208 /* BorrowViewController.swift */,
@@ -200,6 +211,15 @@
 				098882FC1F4EFC070016E396 /* BDCellTableViewCell.swift */,
 			);
 			name = Invest;
+			sourceTree = "<group>";
+		};
+		098883021F50156F0016E396 /* Loan */ = {
+			isa = PBXGroup;
+			children = (
+				098883031F5015950016E396 /* Loan.storyboard */,
+				098883051F5022BA0016E396 /* LabelUIButton.swift */,
+			);
+			name = Loan;
 			sourceTree = "<group>";
 		};
 		43D14F9E66820680A65FEBED /* Frameworks */ = {
@@ -334,6 +354,7 @@
 				097B9AB71F4878D700EAF825 /* LaunchScreen.storyboard in Resources */,
 				0998376B1F4C171300253208 /* Invest.storyboard in Resources */,
 				097B9AB41F4878D700EAF825 /* Assets.xcassets in Resources */,
+				098883041F5015950016E396 /* Loan.storyboard in Resources */,
 				097B9AB21F4878D700EAF825 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,14 +521,17 @@
 				097B9AAF1F4878D700EAF825 /* ViewController.swift in Sources */,
 				0998375D1F4AA51D00253208 /* InvestViewController.swift in Sources */,
 				099837671F4BCBDE00253208 /* UIView_Button.swift in Sources */,
+				098883061F5022BA0016E396 /* LabelUIButton.swift in Sources */,
 				099837651F4B252500253208 /* ReturnTableViewCell.swift in Sources */,
 				099837631F4B1AAA00253208 /* ReturnViewController.swift in Sources */,
 				097B9AAD1F4878D700EAF825 /* AppDelegate.swift in Sources */,
 				098882FB1F4EDB720016E396 /* InvestScatteredViewController.swift in Sources */,
+				09E684461F55C744002DF494 /* LogUpViewController.swift in Sources */,
 				0924E86C1F493190004B1FC4 /* HomeViewController.swift in Sources */,
 				0998375F1F4AFEA800253208 /* BorrowViewController.swift in Sources */,
 				098882F71F4EC1F20016E396 /* PayViewController.swift in Sources */,
 				0998376F1F4C38DF00253208 /* InvestPlanViewController.swift in Sources */,
+				09E684441F55C377002DF494 /* LoginViewController.swift in Sources */,
 				098882FD1F4EFC070016E396 /* BDCellTableViewCell.swift in Sources */,
 				0998376D1F4C267E00253208 /* Picker_TextField.swift in Sources */,
 				098882F91F4EC6000016E396 /* SweetAlert.swift in Sources */,

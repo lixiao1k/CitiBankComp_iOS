@@ -8,6 +8,7 @@ target 'CitiBank' do
   # Pods for CitiBank
   pod 'M13Checkbox'
   pod 'TwicketSegmentedControl'
+  pod ‘TextFieldEffects’
   target 'CitiBankTests' do
     inherit! :search_paths
     # Pods for testing
