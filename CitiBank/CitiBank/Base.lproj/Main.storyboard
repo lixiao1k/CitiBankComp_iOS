@@ -1576,10 +1576,10 @@
             </objects>
             <point key="canvasLocation" x="1121" y="136"/>
         </scene>
-        <!--View Controller-->
+        <!--Log Up View Controller-->
         <scene sceneID="FFe-fM-7xr">
             <objects>
-                <viewController id="BhA-0B-gJO" sceneMemberID="viewController">
+                <viewController id="BhA-0B-gJO" customClass="LogUpViewController" customModule="CitiBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vig-dX-L9F"/>
                         <viewControllerLayoutGuide type="bottom" id="bWE-HB-jqZ"/>
@@ -1684,6 +1684,9 @@
                                 <state key="normal" title="注册">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="logUp:" destination="BhA-0B-gJO" eventType="touchUpInside" id="1Al-z3-K1X"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1706,10 +1709,13 @@
                             <constraint firstItem="0dF-gq-WF0" firstAttribute="leading" secondItem="8B7-GK-xXl" secondAttribute="leading" id="wsK-9v-Pu1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="siH-nj-Gku" kind="presentation" identifier="logUp2In" id="hDY-tt-dxh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQB-aO-Mr7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1076" y="-552"/>
+            <point key="canvasLocation" x="-941" y="-668"/>
         </scene>
         <!--借款-->
         <scene sceneID="evP-Ja-UKU">

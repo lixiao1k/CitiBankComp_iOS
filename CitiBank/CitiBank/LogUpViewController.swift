@@ -21,6 +21,13 @@ class LogUpViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func logUp(_ sender: UIButton) {
+        SweetAlert().showAlert("成功", subTitle: "注册成功", style: .success, buttonTitle: "确定") { (ok) ->Void in
+            if ok == true {
+                self.performSegue(withIdentifier: "logUp2In", sender: self)
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation
