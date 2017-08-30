@@ -60,7 +60,7 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
 
         // Do any additional setup after loading the view.
         if let revealVC = revealViewController() {
-            revealVC.rearViewRevealWidth = view.bounds.width - 10
+            revealVC.rearViewRevealWidth = view.bounds.width * 0.8
             navigationItem.leftBarButtonItem?.target = revealVC
             navigationItem.leftBarButtonItem?.action = #selector(SWRevealViewController.revealToggle(_:))
             view.addGestureRecognizer(revealVC.panGestureRecognizer())
