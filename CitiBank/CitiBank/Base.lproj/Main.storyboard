@@ -1076,6 +1076,7 @@
                                 </state>
                                 <connections>
                                     <action selector="login:" destination="siH-nj-Gku" eventType="touchUpInside" id="BrV-UK-A5t"/>
+                                    <segue destination="mjw-Kn-7MR" kind="presentation" identifier="login" id="lg6-4J-d3q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgA-Bg-5oC">
@@ -1114,7 +1115,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="xvX-rE-J3O" kind="presentation" identifier="login" id="x4E-QG-Fks"/>
                         <segue destination="BhA-0B-gJO" kind="presentation" identifier="logUp" id="h0u-n7-muf"/>
                     </connections>
                 </viewController>
@@ -1731,7 +1731,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="xvX-rE-J3O" kind="custom" customClass="SWRevealViewControllerSegueSetController" id="Mm8-ku-Lwq"/>
+                        <segue destination="xvX-rE-J3O" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="Mm8-ku-Lwq"/>
+                        <segue destination="xRo-oQ-Cdt" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="tT8-ll-pGS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iF-m3-NDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2037,7 +2038,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNS-uz-xph" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-828.75" y="1538.0281690140846"/>
+            <point key="canvasLocation" x="-2466" y="1027"/>
         </scene>
         <!--借款-->
         <scene sceneID="evP-Ja-UKU">
@@ -2128,7 +2129,4 @@
         <image name="test" width="32" height="32"/>
         <image name="wait_hit" width="32" height="32"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Mm8-ku-Lwq"/>
-    </inferredMetricsTieBreakers>
 </document>
