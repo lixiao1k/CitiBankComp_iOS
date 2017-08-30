@@ -1,5 +1,5 @@
 //
-//  ActivateViewController.swift
+//  IdentifyViewController.swift
 //  CitiBank
 //
 //  Created by Shelton Lee on 2017/8/30.
@@ -7,16 +7,15 @@
 //
 
 import UIKit
-import SWRevealViewController
 
-class ActivateViewController: UIViewController {
+class IdentifyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+
+        // Do any additional setup after loading the view.
         navigationItem.leftBarButtonItem?.target = self
         navigationItem.leftBarButtonItem?.action = #selector(back)
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

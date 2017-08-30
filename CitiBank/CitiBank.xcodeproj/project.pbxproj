@@ -10,6 +10,7 @@
 		0924E86C1F493190004B1FC4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924E86B1F493190004B1FC4 /* HomeViewController.swift */; };
 		0956B93D1F5672D90079F998 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0956B93C1F5672D90079F998 /* MenuTableViewController.swift */; };
 		0956B93F1F569E280079F998 /* ActivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0956B93E1F569E280079F998 /* ActivateViewController.swift */; };
+		0956B9411F56A9040079F998 /* IdentifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0956B9401F56A9040079F998 /* IdentifyViewController.swift */; };
 		097B9AAD1F4878D700EAF825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9AAC1F4878D700EAF825 /* AppDelegate.swift */; };
 		097B9AAF1F4878D700EAF825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9AAE1F4878D700EAF825 /* ViewController.swift */; };
 		097B9AB21F4878D700EAF825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097B9AB01F4878D700EAF825 /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		0956B9391F5660440079F998 /* CitiBank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CitiBank-Bridging-Header.h"; sourceTree = "<group>"; };
 		0956B93C1F5672D90079F998 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		0956B93E1F569E280079F998 /* ActivateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivateViewController.swift; sourceTree = "<group>"; };
+		0956B9401F56A9040079F998 /* IdentifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifyViewController.swift; sourceTree = "<group>"; };
 		097B9AA91F4878D700EAF825 /* CitiBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		097B9AAC1F4878D700EAF825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		097B9AAE1F4878D700EAF825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				097B9AAE1F4878D700EAF825 /* ViewController.swift */,
 				099837661F4BCBDE00253208 /* UIView_Button.swift */,
 				097B9AB01F4878D700EAF825 /* Main.storyboard */,
+				0956B9401F56A9040079F998 /* IdentifyViewController.swift */,
 				0956B93E1F569E280079F998 /* ActivateViewController.swift */,
 				0956B93C1F5672D90079F998 /* MenuTableViewController.swift */,
 				09E684451F55C744002DF494 /* LogUpViewController.swift */,
@@ -533,6 +536,7 @@
 				098883061F5022BA0016E396 /* LabelUIButton.swift in Sources */,
 				099837651F4B252500253208 /* ReturnTableViewCell.swift in Sources */,
 				099837631F4B1AAA00253208 /* ReturnViewController.swift in Sources */,
+				0956B9411F56A9040079F998 /* IdentifyViewController.swift in Sources */,
 				097B9AAD1F4878D700EAF825 /* AppDelegate.swift in Sources */,
 				098882FB1F4EDB720016E396 /* InvestScatteredViewController.swift in Sources */,
 				09E684461F55C744002DF494 /* LogUpViewController.swift in Sources */,
