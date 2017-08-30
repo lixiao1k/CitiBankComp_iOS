@@ -7,181 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17285003D257FF7F30114CA112648609 /* TwicketSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95476BD26E336046FE2A0FE611F86B81 /* TwicketSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		172B4E67001F5DE07532456D2AB4469E /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9209E2473EC64D7648E801525DDBE /* HoshiTextField.swift */; };
-		20D3A5C7A98DA850B84EF84AD06B0ADC /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B7E2DF6AA75E42182781E0637AB85 /* AkiraTextField.swift */; };
+		0086D360C7F9712CADB1CBFCF70C3AA8 /* SWRevealViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8B36B2C5C0CB8F31AF60FFDEF45195 /* SWRevealViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028A27E3E7A963690BBFA06149BA92CE /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36095A54CDF634DFC90402112718BF2 /* YokoTextField.swift */; };
+		08B0421ED3E14B0A0D9B44118358DCF1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986D181B68981EED4A119D6B4902A90 /* MinoruTextField.swift */; };
+		1CD87EB4A980A206AF0EE445675F14E9 /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B924AE1FAD75285FCBB24BC77EAA843 /* TwicketSegmentedControl.swift */; };
 		21D492B806BF36EDEB6FD9735FCCCCB9 /* Pods-CitiBankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1418CB3E6A41B37A6739BFB16CB8219 /* Pods-CitiBankTests-dummy.m */; };
-		2FAA955A102415BCEE34DE8AF9ECB7E0 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B44E2D94AEC65136CFA5E7F241E626E /* TextFieldEffects-dummy.m */; };
-		3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA5CE24C4877531150DF346854F810 /* M13CheckboxDisclosurePathGenerator.swift */; };
-		3C24AB35929189CE1F251C148B1AD56C /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787901C7EEEA1789852F007DC03B3B6 /* TwicketSegmentedControl.swift */; };
-		3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60B18936205D12840448C89246A2173 /* M13CheckboxFlatController.swift */; };
-		3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637491A040FB1E177CB79727221F0AA0 /* M13Checkbox+IB.swift */; };
-		40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB2DF62ED553E24EFB2654920DD98B /* M13CheckboxStrokeController.swift */; };
-		43EA19FB84485AE0F6074C0B9E0B191A /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D215959D944BB88CD9FFE859014C1B60 /* TextFieldEffects.swift */; };
-		445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1B255248CB2EBBFB7217E9F803AC4 /* M13Checkbox.swift */; };
-		5538BD261E6BB4C88E2568B6C78BC0F1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA937C57216921ED3D47FF0EB611F1 /* MinoruTextField.swift */; };
-		59585C0150D31B7143D1C342440EF623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		39B55F35F1D3F3E3E52D8A30C400B56C /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B486043A78EA494546E0D645AA4D5E /* TextFieldEffects-dummy.m */; };
+		3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D51223429315190FD88B9C6214FF2A /* M13CheckboxDisclosurePathGenerator.swift */; };
+		3BD70EAEAC5A23FFDA0949BF88698BEB /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5328076ADCBADD5D285EB9C8587F0642 /* AkiraTextField.swift */; };
+		3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B68156B371BF14C28A3C4EE86DF189 /* M13CheckboxFlatController.swift */; };
+		3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DB5B26B6B916C23F794BC52F16DF5 /* M13Checkbox+IB.swift */; };
+		40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A608594C26EE680A3B9484C34F74D5 /* M13CheckboxStrokeController.swift */; };
+		4276E2FB88BF3DEC386C1E7046AB8BA3 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D25C416ED5CB1D72BAC32B4B5CA523DB /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD0FA19325E06248C6F9894130ED60 /* M13Checkbox.swift */; };
+		4B69687FBF322B4D17962249C387D5F2 /* TwicketSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF62A4159622F10B506D2D0855D1A313 /* TwicketSegmentedControl-dummy.m */; };
+		4BC89839641F59240518BCB42857B765 /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48339F4F46E75431D864E88E69DB4993 /* UIViewShadowExtension.swift */; };
+		52861C024B311D4F7363492C717CEC5D /* Pods-CitiBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56C7104E8616EFCB5F2E43167A6482 /* Pods-CitiBank-dummy.m */; };
 		5AB26424C72C44DF2380CB5D6B349FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		642D4BFE7B3A691B7D6C612D1511E58B /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5706ACAE15901405AB6510EFD9DC9AC0 /* YoshikoTextField.swift */; };
-		6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7485657A32395B4B33F46ECCDF6730D2 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76597DDB7BF8B2279AFDC39E98FE389B /* M13CheckboxPathGenerator.swift */; };
+		666AD488496DC009A5C2DDB1234D303A /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70176D5571725895B83AA2A84C682AB9 /* KaedeTextField.swift */; };
+		6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EC91385AFE82B2F6821199D60DD9EB /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D6F6A8336343E220DBC147D6BA140B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CC9C65FE35A9B06DFD03B5C9A6DFD /* M13CheckboxPathGenerator.swift */; };
 		7D1A4F57ECCE5549B3D7D59E7BBDFF16 /* Pods-CitiBankTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE8F34B9831A7E21E155BB05C2616F6 /* Pods-CitiBankTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F4A8C176BC10583D88935CDFCA925 /* M13CheckboxFillController.swift */; };
-		80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBE95B891202DD568238D6EA47AA6A /* M13CheckboxDotController.swift */; };
-		85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120056EF86C6C32271BAC50E3CD0C62E /* M13CheckboxRadioPathGenerator.swift */; };
-		8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830884010708AAB384EB2807694AB858 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		7E7B2EA3B6C504792BA498E221BBD340 /* Pods-CitiBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB93356278CC869B7829E79DA746F9D /* Pods-CitiBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8021B4839A5A4CD172B748D6C0491E0D /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17763298B16C905FC4D3C8211EF0D41A /* TextFieldEffects.swift */; };
+		80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038D51BF65133F6DD7695FFEABC62639 /* M13CheckboxFillController.swift */; };
+		80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5430A78F4DEB6027C11324C35865046 /* M13CheckboxDotController.swift */; };
+		85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60506D5E478AC922843319122F1CCE /* M13CheckboxRadioPathGenerator.swift */; };
+		874C6A00829F14E600628B3994AEC00E /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E832F80CBA14EDDEB0A901990F767089 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FEAD2EED824385F85AFAFD830C212 /* M13CheckboxAddRemovePathGenerator.swift */; };
 		900B6F52434A35E9F88CE6D22F0E5160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
 		92AFFB45085BA809F46F186B6496ADE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
-		9AA3395BC994520BA4BD0864693B0803 /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35949E16CCAF79843DDA7D82149F6270 /* UIViewShadowExtension.swift */; };
+		A183C37439596C45C1912EA623E6A09E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73A879BB1CC61AF4AFD7630E6963F1 /* SWRevealViewController.m */; };
 		A566AFF200626888414812DDCF47D369 /* Pods-CitiBankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119AD667AB4BE6C8F842FD629E9ABB27 /* Pods-CitiBankUITests-dummy.m */; };
-		A675525D44874A3C6FC669B9D31B3E25 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66B96C958D223C19D998B4CAF44683C /* MadokaTextField.swift */; };
-		AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 131A32DAA569E0578FBB42BD09C1F50E /* M13Checkbox-dummy.m */; };
-		B0D5C810AB10746DE91B596F2DC1B91E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		A68210D18344D818A73B9A3C4DE6D0C6 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17DFCAD9DA8068B9237F2FBC7D8585 /* MadokaTextField.swift */; };
+		AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F4DDCA1AFB45159BF226F5134463EF /* M13Checkbox-dummy.m */; };
+		B37C9E5586D6A3388C6D57DE23C42693 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
 		B3DA3002A1DDE85651FC4D1CA1F0EA9A /* Pods-CitiBankUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0250FDF1174CF0E922025368BFD5EF34 /* Pods-CitiBankUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B862B5FE2489BD91CB51D89B31DAA1F3 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B44EB1664375C42D999575F4CC344E9 /* JiroTextField.swift */; };
-		BC283DFAB0D118F0BBA9B9A387F6C939 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500AD31F185054F88926C0C359BD56C4 /* IsaoTextField.swift */; };
-		BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686C259912F5B094478EE2216B7E5A /* M13CheckboxExpandController.swift */; };
-		BD0FF59D8BAE4B76332110F86460F545 /* TwicketSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893E08AEC6A35A033D57F36DF949A4C /* TwicketSegmentedControl-dummy.m */; };
-		C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0340FA467A921FFBC19AA343905227F /* M13CheckboxController.swift */; };
+		B4EAA732584F5B286675CF897E5EDB9B /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861EE3D071CBC121FAB771DF1BAB936 /* IsaoTextField.swift */; };
+		BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266DBABB77B0949F9024240957CC3C8 /* M13CheckboxExpandController.swift */; };
+		C1D57F1DE3CB732555C84504285B2DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ABC66F31900D5DB03657D237911F0 /* M13CheckboxController.swift */; };
 		C42E0A563F3949950979C1C59D1311AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95CF071227EC9F74E46DA4665B258F8 /* M13CheckboxAnimationGenerator.swift */; };
-		C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ABC72B909BF3977370FE57070EB86F /* M13CheckboxCheckPathGenerator.swift */; };
-		CA47620165C02611C388E574BAF50D3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D94C7AE3EDADABD4D3730B1D16D13 /* M13CheckboxGestureRecognizer.swift */; };
-		DB4603E7945789F59928F077C81223DF /* Pods-CitiBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56C7104E8616EFCB5F2E43167A6482 /* Pods-CitiBank-dummy.m */; };
-		DFF8FBEE45E7A88A7BAEA7AC4F8F432B /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F00F402B14CD34FF65E114C7D2A85C /* Palette.swift */; };
-		EA6684343019FE0647D90D658FC99EF6 /* Pods-CitiBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB93356278CC869B7829E79DA746F9D /* Pods-CitiBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECAFB9518130DB653C237E0693CF86E /* M13CheckboxAnimationGenerator.swift */; };
+		C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9513C2653A2171647BE4B8E39FDCF9A /* M13CheckboxCheckPathGenerator.swift */; };
+		CC68DF7897D64AE14E52158645BBE22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		CEC49A11599A737D38C96DEDD38A60D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		CF2C034466F3DE4B638612DC30AD254B /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25338A3793404FEBBF0CBE4488546B44 /* JiroTextField.swift */; };
+		D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49403EE0E054495C031065C94D88863F /* M13CheckboxGestureRecognizer.swift */; };
+		DEE4CEA5AFAF80AFDD1404B196D50BA8 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D88CAE1430FF1B3573303875ADEC /* Palette.swift */; };
+		E500CA0E6959F15F63FF7DAC705D9689 /* TwicketSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BA9C107C24C937274C7DB8B8734882 /* TwicketSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAFC0EA4762962766C946FC37569310A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
-		EC19B46D92960F1417C0F00BC478D0A7 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357829BC9033E514F2B3DAD5BDF026E4 /* YokoTextField.swift */; };
-		F3EB946672B3E57EC022CA50B33663CA /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4444FCD153FA70B17FC41188A6CE97 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F69A10A20AEBFFED50F120A8F68BC670 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE80892D73DDA797E58E046FA0C5D0 /* KaedeTextField.swift */; };
-		F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7AABCA88DD3DCA8F4B6392A4878622 /* M13CheckboxBounceController.swift */; };
-		FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65433BE7D2A8579078E548D044B6DD /* M13CheckboxSpiralController.swift */; };
-		FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F633A31C60D2DE21A9FD27B0236A8 /* M13CheckboxFadeController.swift */; };
+		EF854C6DD1045E3A54CDB491E6EB28B2 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0B14D0FDA5D12FBEFA87DA0FD7961 /* HoshiTextField.swift */; };
+		F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B68BD90609F7D253516AF0FB83F0E7 /* M13CheckboxBounceController.swift */; };
+		FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC544C9E7811D2639B37D332E10F7AE /* M13CheckboxSpiralController.swift */; };
+		FAACB68933F01BD7460388D5318D8B6D /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C702114D3A7858D6445CFD2206E7D336 /* SWRevealViewController-dummy.m */; };
+		FF1C05FA6F98ECC371B5ED6F426A67E6 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB64EBAD3AE0D5AE51BB0AF9DE42B41 /* YoshikoTextField.swift */; };
+		FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1856878E0FC26136B2A3D089F133BED /* M13CheckboxFadeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BE42EE625306376CB1D779EABB2B4FB /* PBXContainerItemProxy */ = {
+		7DC6152FD838E27184A427EC525CD4BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4130A5B4ABF1569D66EEC9AF89D3AF8A;
-			remoteInfo = TwicketSegmentedControl;
-		};
-		44418F4D67AB7AB44DAA8D565416CA88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87894BD22A8BEF70C5C811D3DDA52D0C;
+			remoteGlobalIDString = ACB939967BD332D9E4D36E14969E2E5B;
 			remoteInfo = TextFieldEffects;
 		};
-		F4B12C3E00DA2C3CA4B12737786DC43E /* PBXContainerItemProxy */ = {
+		7E8CDEA49B937205B8D94F32C440E8A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 20A9DD9ABBF08BC57372A26C35327BF1;
 			remoteInfo = M13Checkbox;
 		};
+		AE1A496334E7BB503BA4BB0AC2AB3521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6066B5764AF4419DB0178E58E0E6829F;
+			remoteInfo = SWRevealViewController;
+		};
+		C74B8EB090E91D871CC64DBD43D8383C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B67A9892A91E12494739750642F059A;
+			remoteInfo = TwicketSegmentedControl;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01F92301526FC0E6F4958033CEDFC9F7 /* Pods-CitiBankUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankUITests-resources.sh"; sourceTree = "<group>"; };
 		0250FDF1174CF0E922025368BFD5EF34 /* Pods-CitiBankUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CitiBankUITests-umbrella.h"; sourceTree = "<group>"; };
+		02F247971D5622C6AB3D5640C48D20A1 /* Pods_CitiBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBankUITests.framework; path = "Pods-CitiBankUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		038D51BF65133F6DD7695FFEABC62639 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		0B6BA68F6A7FC882C50D429B5B25FEB5 /* SWRevealViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWRevealViewController.modulemap; sourceTree = "<group>"; };
+		0E7D10B8DE657615163F9E2457A6E8CB /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
 		10F45E5F936003A2CAF917461AE9668A /* Pods-CitiBankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CitiBankTests.modulemap"; sourceTree = "<group>"; };
 		119AD667AB4BE6C8F842FD629E9ABB27 /* Pods-CitiBankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CitiBankUITests-dummy.m"; sourceTree = "<group>"; };
-		11D27D76CCAFC4F8DC5F13EC93909062 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		120056EF86C6C32271BAC50E3CD0C62E /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
-		131A32DAA569E0578FBB42BD09C1F50E /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
-		14C59BA9D1A45C4E8FEFE86E6638B6F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DC1B255248CB2EBBFB7217E9F803AC4 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		11F0B14D0FDA5D12FBEFA87DA0FD7961 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		1405CB417467B93C08C8A502A152C243 /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
+		17763298B16C905FC4D3C8211EF0D41A /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		1AC544C9E7811D2639B37D332E10F7AE /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		2088E83B366FA1C60402BAB1E7C07405 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E0849C0E7C8C407E33E4D700067E46 /* Pods-CitiBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankUITests.release.xcconfig"; sourceTree = "<group>"; };
-		22F00F402B14CD34FF65E114C7D2A85C /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = TwicketSegmentedControl/Palette.swift; sourceTree = "<group>"; };
-		2397FDB0B9CACD389FD7E020041E9974 /* TwicketSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TwicketSegmentedControl.modulemap; sourceTree = "<group>"; };
-		2787901C7EEEA1789852F007DC03B3B6 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwicketSegmentedControl.swift; path = TwicketSegmentedControl/TwicketSegmentedControl.swift; sourceTree = "<group>"; };
-		2AD3B53ACFBA36E840DF9E7F13DE47F9 /* Pods_CitiBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBank.framework; path = "Pods-CitiBank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B276469A1E40080F7E9C026A372F84F /* TwicketSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
-		2D55D30C0112E1FD190E5F5FB6F93E1D /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		25338A3793404FEBBF0CBE4488546B44 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
 		2DE8F34B9831A7E21E155BB05C2616F6 /* Pods-CitiBankTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CitiBankTests-umbrella.h"; sourceTree = "<group>"; };
-		2FAE80892D73DDA797E58E046FA0C5D0 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		357829BC9033E514F2B3DAD5BDF026E4 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		35949E16CCAF79843DDA7D82149F6270 /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewShadowExtension.swift; path = TwicketSegmentedControl/UIViewShadowExtension.swift; sourceTree = "<group>"; };
-		3B44E2D94AEC65136CFA5E7F241E626E /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		3E4444FCD153FA70B17FC41188A6CE97 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		4102093C052EE39256025EB5C1672221 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44BB2DF62ED553E24EFB2654920DD98B /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
-		4814359D8E27422A0B1ECDB952D5C609 /* Pods_CitiBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBankTests.framework; path = "Pods-CitiBankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		500AD31F185054F88926C0C359BD56C4 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		5706ACAE15901405AB6510EFD9DC9AC0 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		32404CBE063E13461CEB7F8BDA5C3E2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410ABC66F31900D5DB03657D237911F0 /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		46EC91385AFE82B2F6821199D60DD9EB /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		47B68156B371BF14C28A3C4EE86DF189 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		48339F4F46E75431D864E88E69DB4993 /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewShadowExtension.swift; path = TwicketSegmentedControl/UIViewShadowExtension.swift; sourceTree = "<group>"; };
+		49403EE0E054495C031065C94D88863F /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		5328076ADCBADD5D285EB9C8587F0642 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
 		5B0312D07FF919C1FC2A7BDC7BDA79EA /* Pods-CitiBankUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CitiBankUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B7A923F487B954C5599D8A8EEE58CD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C56C7104E8616EFCB5F2E43167A6482 /* Pods-CitiBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CitiBank-dummy.m"; sourceTree = "<group>"; };
-		5C65433BE7D2A8579078E548D044B6DD /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
-		5EBA937C57216921ED3D47FF0EB611F1 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
-		637491A040FB1E177CB79727221F0AA0 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
-		64FBA294C82D0319B6D696022F706C91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		726C68E297062912FD7B7F0E55C9E788 /* TwicketSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwicketSegmentedControl.xcconfig; sourceTree = "<group>"; };
-		7485657A32395B4B33F46ECCDF6730D2 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
-		762F4A8C176BC10583D88935CDFCA925 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
-		76597DDB7BF8B2279AFDC39E98FE389B /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
-		7B1F633A31C60D2DE21A9FD27B0236A8 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
-		7CCBE95B891202DD568238D6EA47AA6A /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		61A608594C26EE680A3B9484C34F74D5 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		6365A290B2FC1B2DFAB41B648B629C95 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		6734249F37A78F649DFD410A7DC8402E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B68BD90609F7D253516AF0FB83F0E7 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		68589541B871874B5EDD5A8A16F7E92B /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDD0FA19325E06248C6F9894130ED60 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		6BE05D73422325C0DE9791F09FBB7DA6 /* Pods_CitiBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBank.framework; path = "Pods-CitiBank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70176D5571725895B83AA2A84C682AB9 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		77D51223429315190FD88B9C6214FF2A /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		7A7DB5B26B6B916C23F794BC52F16DF5 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		7BA8FCB8C74CFBB759E0FF316EB8A8B6 /* Pods_CitiBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBankTests.framework; path = "Pods-CitiBankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDB1D2167B86BEDA3751E40100D1A2E /* SWRevealViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWRevealViewController.framework; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8CC9C65FE35A9B06DFD03B5C9A6DFD /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		7D2FEAD2EED824385F85AFAFD830C212 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
 		7FB93356278CC869B7829E79DA746F9D /* Pods-CitiBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CitiBank-umbrella.h"; sourceTree = "<group>"; };
-		830884010708AAB384EB2807694AB858 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		86BA9C107C24C937274C7DB8B8734882 /* TwicketSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		87B486043A78EA494546E0D645AA4D5E /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
 		8880B760FBD36FBDA5CB3109B5CA209A /* Pods-CitiBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBank-frameworks.sh"; sourceTree = "<group>"; };
-		8893E08AEC6A35A033D57F36DF949A4C /* TwicketSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwicketSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		8970A515141AF7243EEC018C327E3FE7 /* TwicketSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
 		89A1585D7AADEBEA63AB6BA7634A1D51 /* Pods-CitiBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBank.debug.xcconfig"; sourceTree = "<group>"; };
 		8DC080E66AC25B593FB7162282B9954F /* Pods-CitiBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CitiBank-acknowledgements.plist"; sourceTree = "<group>"; };
-		8FFA5CE24C4877531150DF346854F810 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95476BD26E336046FE2A0FE611F86B81 /* TwicketSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
 		9621FC149593920F5D3EFAF91B98F55A /* Pods-CitiBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CitiBank.modulemap"; sourceTree = "<group>"; };
 		976EA54433694AEAF76322533446B7E8 /* Pods-CitiBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		9861EE3D071CBC121FAB771DF1BAB936 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
 		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		9A88816D69E54D5CC031815C2EB3E259 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
-		9B44EB1664375C42D999575F4CC344E9 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		99F4DDCA1AFB45159BF226F5134463EF /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		9B924AE1FAD75285FCBB24BC77EAA843 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwicketSegmentedControl.swift; path = TwicketSegmentedControl/TwicketSegmentedControl.swift; sourceTree = "<group>"; };
 		9C07BDBB42B8608825A3E5BF06BA5782 /* Pods-CitiBankTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CitiBankTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D9B7E2DF6AA75E42182781E0637AB85 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
 		9F09EA9E5068F8D7467E16F81D34541F /* Pods-CitiBankTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankTests-resources.sh"; sourceTree = "<group>"; };
-		A0340FA467A921FFBC19AA343905227F /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
 		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A60B18936205D12840448C89246A2173 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
-		A9299913CF614EE4FCA89C1370340E7E /* TwicketSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwicketSegmentedControl.framework; path = TwicketSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A95CF071227EC9F74E46DA4665B258F8 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
-		A9CB0635950374F951A7B203A508B35C /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7AABCA88DD3DCA8F4B6392A4878622 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
-		AAD9209E2473EC64D7648E801525DDBE /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		A536ABAA221669A7474A0F29CDCEA6FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A986D181B68981EED4A119D6B4902A90 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		AB17DFCAD9DA8068B9237F2FBC7D8585 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		AD489FF3D6C9A951A0DE52D390A07050 /* Pods-CitiBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD60506D5E478AC922843319122F1CCE /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		ADB64EBAD3AE0D5AE51BB0AF9DE42B41 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		AF62A4159622F10B506D2D0855D1A313 /* TwicketSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwicketSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		B13D8109BE45436E5CF61954CBD85AD0 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		B2F7C8EA34727D82E612ADCC8327A724 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
 		B3939D8DB5CBEA159E70EE052228C981 /* Pods-CitiBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBank.release.xcconfig"; sourceTree = "<group>"; };
-		B4ABC72B909BF3977370FE57070EB86F /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		B5A1D88CAE1430FF1B3573303875ADEC /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = TwicketSegmentedControl/Palette.swift; sourceTree = "<group>"; };
 		B8EFBA6802C5E612F68611BD6E0933F8 /* Pods-CitiBankTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankTests-frameworks.sh"; sourceTree = "<group>"; };
+		BC73A879BB1CC61AF4AFD7630E6963F1 /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		BCD8C9650C634417D43ADD49C2F60910 /* Pods-CitiBankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CitiBankTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C66B96C958D223C19D998B4CAF44683C /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		BECAFB9518130DB653C237E0693CF86E /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		BFB9D3420CA17E413952993614F46879 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		C0BC686BACB4F3D1D8F7EBA73057048D /* TwicketSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TwicketSegmentedControl.modulemap; sourceTree = "<group>"; };
+		C36095A54CDF634DFC90402112718BF2 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		C702114D3A7858D6445CFD2206E7D336 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		C7AA1BF8C3F97855707387064E6B49D8 /* TwicketSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwicketSegmentedControl.xcconfig; sourceTree = "<group>"; };
 		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE686C259912F5B094478EE2216B7E5A /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		CEA4284392BDA189BFD9A688D34914A3 /* TwicketSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwicketSegmentedControl.framework; path = TwicketSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B1CF5A28D0CA9C54DF4DC8231D681E /* Pods-CitiBankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CitiBankUITests.modulemap"; sourceTree = "<group>"; };
-		D215959D944BB88CD9FFE859014C1B60 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		D25C416ED5CB1D72BAC32B4B5CA523DB /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		D32F2A1A528800F59A680F77455CDA18 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
 		D8ABDEA51C6B85487A3DC7E4A21ED46B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC27C5FC67C12D24CA3E8A50BFE4D098 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		DD8B36B2C5C0CB8F31AF60FFDEF45195 /* SWRevealViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-umbrella.h"; sourceTree = "<group>"; };
+		DEB1657CE2F8DB2CFC3AE264824B848A /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
 		E05068A0D0CEB67DEEFF7EBC20EA4CCA /* Pods-CitiBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CitiBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1418CB3E6A41B37A6739BFB16CB8219 /* Pods-CitiBankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CitiBankTests-dummy.m"; sourceTree = "<group>"; };
-		E66D94C7AE3EDADABD4D3730B1D16D13 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
 		E773BC028ED2776A80999780ED3C03B9 /* Pods-CitiBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CitiBank-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E832F80CBA14EDDEB0A901990F767089 /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		E8BB35CD4F7B63E14FA3FF411EA26A45 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA79C77638E302024D093C58FC450545 /* Pods-CitiBankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CitiBankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EBBC155D1491C797695FAB8BCA021D0C /* Pods_CitiBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CitiBankUITests.framework; path = "Pods-CitiBankUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF53770C69E363350299867ABFF8599 /* Pods-CitiBank-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBank-resources.sh"; sourceTree = "<group>"; };
-		EEF0A4625CF4D737E233EF80563B9E8B /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
-		F65DED8772030C6808CB1BD4110D9205 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		F1856878E0FC26136B2A3D089F133BED /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		F266DBABB77B0949F9024240957CC3C8 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		F5430A78F4DEB6027C11324C35865046 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		F9513C2653A2171647BE4B8E39FDCF9A /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
 		FA1D3B703722B319BE2C8E44A2E23196 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBF2906C82ECFE1F51CECC7BC53B08FE /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
 		FFEC186767E8E2B3A476D5AEC5157B78 /* Pods-CitiBankUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CitiBankUITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3749245C1CB73E1540749DD66099ADAE /* Frameworks */ = {
+		05EAF0239C94A5CC8ED2B02491ED7AC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59585C0150D31B7143D1C342440EF623 /* Foundation.framework in Frameworks */,
+				B37C9E5586D6A3388C6D57DE23C42693 /* CoreGraphics.framework in Frameworks */,
+				C1D57F1DE3CB732555C84504285B2DDF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,11 +226,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8DFC457F013D6F381DC763F6E80BAB8 /* Frameworks */ = {
+		6F80879E23243CE4B2AAF374EFE42F1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D5C810AB10746DE91B596F2DC1B91E /* Foundation.framework in Frameworks */,
+				75D6F6A8336343E220DBC147D6BA140B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7441876E2DD3442C4ABF9972FB976D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC68DF7897D64AE14E52158645BBE22F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF641DC2CEB09B2CC6371DBB32E7A006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC49A11599A737D38C96DEDD38A60D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,31 +258,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F40AB5AC34825A352662910005205BA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA47620165C02611C388E574BAF50D3A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A785CC39A3472E9F7DC91BB0A5E7149 /* TextFieldEffects */ = {
+		06DF190BC9D0D4F971A4C7EB06BE1CD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D9B7E2DF6AA75E42182781E0637AB85 /* AkiraTextField.swift */,
-				AAD9209E2473EC64D7648E801525DDBE /* HoshiTextField.swift */,
-				500AD31F185054F88926C0C359BD56C4 /* IsaoTextField.swift */,
-				9B44EB1664375C42D999575F4CC344E9 /* JiroTextField.swift */,
-				2FAE80892D73DDA797E58E046FA0C5D0 /* KaedeTextField.swift */,
-				C66B96C958D223C19D998B4CAF44683C /* MadokaTextField.swift */,
-				5EBA937C57216921ED3D47FF0EB611F1 /* MinoruTextField.swift */,
-				D215959D944BB88CD9FFE859014C1B60 /* TextFieldEffects.swift */,
-				357829BC9033E514F2B3DAD5BDF026E4 /* YokoTextField.swift */,
-				5706ACAE15901405AB6510EFD9DC9AC0 /* YoshikoTextField.swift */,
-				36EF0C3729F40CC5B6EA25F4ACB88D44 /* Support Files */,
+				68589541B871874B5EDD5A8A16F7E92B /* M13Checkbox.framework */,
+				6BE05D73422325C0DE9791F09FBB7DA6 /* Pods_CitiBank.framework */,
+				7BA8FCB8C74CFBB759E0FF316EB8A8B6 /* Pods_CitiBankTests.framework */,
+				02F247971D5622C6AB3D5640C48D20A1 /* Pods_CitiBankUITests.framework */,
+				7BDB1D2167B86BEDA3751E40100D1A2E /* SWRevealViewController.framework */,
+				E8BB35CD4F7B63E14FA3FF411EA26A45 /* TextFieldEffects.framework */,
+				CEA4284392BDA189BFD9A688D34914A3 /* TwicketSegmentedControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CC0AAED64F697A7708BFDAE6BAB5F3 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				5328076ADCBADD5D285EB9C8587F0642 /* AkiraTextField.swift */,
+				11F0B14D0FDA5D12FBEFA87DA0FD7961 /* HoshiTextField.swift */,
+				9861EE3D071CBC121FAB771DF1BAB936 /* IsaoTextField.swift */,
+				25338A3793404FEBBF0CBE4488546B44 /* JiroTextField.swift */,
+				70176D5571725895B83AA2A84C682AB9 /* KaedeTextField.swift */,
+				AB17DFCAD9DA8068B9237F2FBC7D8585 /* MadokaTextField.swift */,
+				A986D181B68981EED4A119D6B4902A90 /* MinoruTextField.swift */,
+				17763298B16C905FC4D3C8211EF0D41A /* TextFieldEffects.swift */,
+				C36095A54CDF634DFC90402112718BF2 /* YokoTextField.swift */,
+				ADB64EBAD3AE0D5AE51BB0AF9DE42B41 /* YoshikoTextField.swift */,
+				47B6F5D6408B82B6A3FF2DC5299AD4CA /* Support Files */,
 			);
 			name = TextFieldEffects;
 			path = TextFieldEffects;
@@ -275,20 +320,6 @@
 			path = "Target Support Files/Pods-CitiBankUITests";
 			sourceTree = "<group>";
 		};
-		36EF0C3729F40CC5B6EA25F4ACB88D44 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				64FBA294C82D0319B6D696022F706C91 /* Info.plist */,
-				2D55D30C0112E1FD190E5F5FB6F93E1D /* TextFieldEffects.modulemap */,
-				EEF0A4625CF4D737E233EF80563B9E8B /* TextFieldEffects.xcconfig */,
-				3B44E2D94AEC65136CFA5E7F241E626E /* TextFieldEffects-dummy.m */,
-				FBF2906C82ECFE1F51CECC7BC53B08FE /* TextFieldEffects-prefix.pch */,
-				3E4444FCD153FA70B17FC41188A6CE97 /* TextFieldEffects-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TextFieldEffects";
-			sourceTree = "<group>";
-		};
 		477B05CCA32C018EB950C26C49DE3CB8 /* Pods-CitiBankTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,27 +338,67 @@
 			path = "Target Support Files/Pods-CitiBankTests";
 			sourceTree = "<group>";
 		};
-		754E1C6F4467609747ACA7E0267702AE /* TwicketSegmentedControl */ = {
+		47B6F5D6408B82B6A3FF2DC5299AD4CA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				22F00F402B14CD34FF65E114C7D2A85C /* Palette.swift */,
-				2787901C7EEEA1789852F007DC03B3B6 /* TwicketSegmentedControl.swift */,
-				35949E16CCAF79843DDA7D82149F6270 /* UIViewShadowExtension.swift */,
-				7B95ED965795BBC7ABCBAA718FEC671B /* Support Files */,
+				6734249F37A78F649DFD410A7DC8402E /* Info.plist */,
+				D32F2A1A528800F59A680F77455CDA18 /* TextFieldEffects.modulemap */,
+				B2F7C8EA34727D82E612ADCC8327A724 /* TextFieldEffects.xcconfig */,
+				87B486043A78EA494546E0D645AA4D5E /* TextFieldEffects-dummy.m */,
+				B13D8109BE45436E5CF61954CBD85AD0 /* TextFieldEffects-prefix.pch */,
+				D25C416ED5CB1D72BAC32B4B5CA523DB /* TextFieldEffects-umbrella.h */,
 			);
-			name = TwicketSegmentedControl;
-			path = TwicketSegmentedControl;
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
 			sourceTree = "<group>";
 		};
-		7B95ED965795BBC7ABCBAA718FEC671B /* Support Files */ = {
+		5E18FEF2FB3F4F04D98FD7D5EF15C16A /* M13Checkbox */ = {
 			isa = PBXGroup;
 			children = (
-				14C59BA9D1A45C4E8FEFE86E6638B6F2 /* Info.plist */,
-				2397FDB0B9CACD389FD7E020041E9974 /* TwicketSegmentedControl.modulemap */,
-				726C68E297062912FD7B7F0E55C9E788 /* TwicketSegmentedControl.xcconfig */,
-				8893E08AEC6A35A033D57F36DF949A4C /* TwicketSegmentedControl-dummy.m */,
-				2B276469A1E40080F7E9C026A372F84F /* TwicketSegmentedControl-prefix.pch */,
-				95476BD26E336046FE2A0FE611F86B81 /* TwicketSegmentedControl-umbrella.h */,
+				6BDD0FA19325E06248C6F9894130ED60 /* M13Checkbox.swift */,
+				7A7DB5B26B6B916C23F794BC52F16DF5 /* M13Checkbox+IB.swift */,
+				7D2FEAD2EED824385F85AFAFD830C212 /* M13CheckboxAddRemovePathGenerator.swift */,
+				BECAFB9518130DB653C237E0693CF86E /* M13CheckboxAnimationGenerator.swift */,
+				67B68BD90609F7D253516AF0FB83F0E7 /* M13CheckboxBounceController.swift */,
+				F9513C2653A2171647BE4B8E39FDCF9A /* M13CheckboxCheckPathGenerator.swift */,
+				410ABC66F31900D5DB03657D237911F0 /* M13CheckboxController.swift */,
+				77D51223429315190FD88B9C6214FF2A /* M13CheckboxDisclosurePathGenerator.swift */,
+				F5430A78F4DEB6027C11324C35865046 /* M13CheckboxDotController.swift */,
+				F266DBABB77B0949F9024240957CC3C8 /* M13CheckboxExpandController.swift */,
+				F1856878E0FC26136B2A3D089F133BED /* M13CheckboxFadeController.swift */,
+				038D51BF65133F6DD7695FFEABC62639 /* M13CheckboxFillController.swift */,
+				47B68156B371BF14C28A3C4EE86DF189 /* M13CheckboxFlatController.swift */,
+				49403EE0E054495C031065C94D88863F /* M13CheckboxGestureRecognizer.swift */,
+				7C8CC9C65FE35A9B06DFD03B5C9A6DFD /* M13CheckboxPathGenerator.swift */,
+				AD60506D5E478AC922843319122F1CCE /* M13CheckboxRadioPathGenerator.swift */,
+				1AC544C9E7811D2639B37D332E10F7AE /* M13CheckboxSpiralController.swift */,
+				61A608594C26EE680A3B9484C34F74D5 /* M13CheckboxStrokeController.swift */,
+				991E8864381AAC49397B5B88209844DE /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		671208F37F6A79E2DDC43095C21935E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E18FEF2FB3F4F04D98FD7D5EF15C16A /* M13Checkbox */,
+				E20FB970E57A59D57D25793E22FD7AEE /* SWRevealViewController */,
+				10CC0AAED64F697A7708BFDAE6BAB5F3 /* TextFieldEffects */,
+				B0264B776EFDACDC6C9280E14B1BF065 /* TwicketSegmentedControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B011B38BB62B51EE6ED939EB0132494 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32404CBE063E13461CEB7F8BDA5C3E2D /* Info.plist */,
+				C0BC686BACB4F3D1D8F7EBA73057048D /* TwicketSegmentedControl.modulemap */,
+				C7AA1BF8C3F97855707387064E6B49D8 /* TwicketSegmentedControl.xcconfig */,
+				AF62A4159622F10B506D2D0855D1A313 /* TwicketSegmentedControl-dummy.m */,
+				8970A515141AF7243EEC018C327E3FE7 /* TwicketSegmentedControl-prefix.pch */,
+				86BA9C107C24C937274C7DB8B8734882 /* TwicketSegmentedControl-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TwicketSegmentedControl";
@@ -338,8 +409,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				C54533727CD61682AD82205A40C42629 /* Pods */,
-				C83236891A57807C986D0A84F1366F19 /* Products */,
+				671208F37F6A79E2DDC43095C21935E4 /* Pods */,
+				06DF190BC9D0D4F971A4C7EB06BE1CD2 /* Products */,
 				D5D53FEEDC0F65D5030D9897CED3E2B0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -354,55 +425,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B0CA6FB2AD3FBE77B839CCE5F2998DE2 /* Support Files */ = {
+		991E8864381AAC49397B5B88209844DE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4102093C052EE39256025EB5C1672221 /* Info.plist */,
-				DC27C5FC67C12D24CA3E8A50BFE4D098 /* M13Checkbox.modulemap */,
-				F65DED8772030C6808CB1BD4110D9205 /* M13Checkbox.xcconfig */,
-				131A32DAA569E0578FBB42BD09C1F50E /* M13Checkbox-dummy.m */,
-				9A88816D69E54D5CC031815C2EB3E259 /* M13Checkbox-prefix.pch */,
-				7485657A32395B4B33F46ECCDF6730D2 /* M13Checkbox-umbrella.h */,
+				2088E83B366FA1C60402BAB1E7C07405 /* Info.plist */,
+				0E7D10B8DE657615163F9E2457A6E8CB /* M13Checkbox.modulemap */,
+				6365A290B2FC1B2DFAB41B648B629C95 /* M13Checkbox.xcconfig */,
+				99F4DDCA1AFB45159BF226F5134463EF /* M13Checkbox-dummy.m */,
+				BFB9D3420CA17E413952993614F46879 /* M13Checkbox-prefix.pch */,
+				46EC91385AFE82B2F6821199D60DD9EB /* M13Checkbox-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/M13Checkbox";
 			sourceTree = "<group>";
 		};
-		C4F248F8F02E412C290C1A94FDB5B639 /* M13Checkbox */ = {
+		B0264B776EFDACDC6C9280E14B1BF065 /* TwicketSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				1DC1B255248CB2EBBFB7217E9F803AC4 /* M13Checkbox.swift */,
-				637491A040FB1E177CB79727221F0AA0 /* M13Checkbox+IB.swift */,
-				830884010708AAB384EB2807694AB858 /* M13CheckboxAddRemovePathGenerator.swift */,
-				A95CF071227EC9F74E46DA4665B258F8 /* M13CheckboxAnimationGenerator.swift */,
-				AA7AABCA88DD3DCA8F4B6392A4878622 /* M13CheckboxBounceController.swift */,
-				B4ABC72B909BF3977370FE57070EB86F /* M13CheckboxCheckPathGenerator.swift */,
-				A0340FA467A921FFBC19AA343905227F /* M13CheckboxController.swift */,
-				8FFA5CE24C4877531150DF346854F810 /* M13CheckboxDisclosurePathGenerator.swift */,
-				7CCBE95B891202DD568238D6EA47AA6A /* M13CheckboxDotController.swift */,
-				CE686C259912F5B094478EE2216B7E5A /* M13CheckboxExpandController.swift */,
-				7B1F633A31C60D2DE21A9FD27B0236A8 /* M13CheckboxFadeController.swift */,
-				762F4A8C176BC10583D88935CDFCA925 /* M13CheckboxFillController.swift */,
-				A60B18936205D12840448C89246A2173 /* M13CheckboxFlatController.swift */,
-				E66D94C7AE3EDADABD4D3730B1D16D13 /* M13CheckboxGestureRecognizer.swift */,
-				76597DDB7BF8B2279AFDC39E98FE389B /* M13CheckboxPathGenerator.swift */,
-				120056EF86C6C32271BAC50E3CD0C62E /* M13CheckboxRadioPathGenerator.swift */,
-				5C65433BE7D2A8579078E548D044B6DD /* M13CheckboxSpiralController.swift */,
-				44BB2DF62ED553E24EFB2654920DD98B /* M13CheckboxStrokeController.swift */,
-				B0CA6FB2AD3FBE77B839CCE5F2998DE2 /* Support Files */,
+				B5A1D88CAE1430FF1B3573303875ADEC /* Palette.swift */,
+				9B924AE1FAD75285FCBB24BC77EAA843 /* TwicketSegmentedControl.swift */,
+				48339F4F46E75431D864E88E69DB4993 /* UIViewShadowExtension.swift */,
+				7B011B38BB62B51EE6ED939EB0132494 /* Support Files */,
 			);
-			name = M13Checkbox;
-			path = M13Checkbox;
-			sourceTree = "<group>";
-		};
-		C54533727CD61682AD82205A40C42629 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C4F248F8F02E412C290C1A94FDB5B639 /* M13Checkbox */,
-				0A785CC39A3472E9F7DC91BB0A5E7149 /* TextFieldEffects */,
-				754E1C6F4467609747ACA7E0267702AE /* TwicketSegmentedControl */,
-			);
-			name = Pods;
+			name = TwicketSegmentedControl;
+			path = TwicketSegmentedControl;
 			sourceTree = "<group>";
 		};
 		C65D72EEAC6660D9BA3F44CE6AF9D991 /* Pods-CitiBank */ = {
@@ -423,17 +469,18 @@
 			path = "Target Support Files/Pods-CitiBank";
 			sourceTree = "<group>";
 		};
-		C83236891A57807C986D0A84F1366F19 /* Products */ = {
+		CBB87350C9305837065D371EC4A0D4D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				11D27D76CCAFC4F8DC5F13EC93909062 /* M13Checkbox.framework */,
-				2AD3B53ACFBA36E840DF9E7F13DE47F9 /* Pods_CitiBank.framework */,
-				4814359D8E27422A0B1ECDB952D5C609 /* Pods_CitiBankTests.framework */,
-				EBBC155D1491C797695FAB8BCA021D0C /* Pods_CitiBankUITests.framework */,
-				A9CB0635950374F951A7B203A508B35C /* TextFieldEffects.framework */,
-				A9299913CF614EE4FCA89C1370340E7E /* TwicketSegmentedControl.framework */,
+				A536ABAA221669A7474A0F29CDCEA6FD /* Info.plist */,
+				0B6BA68F6A7FC882C50D429B5B25FEB5 /* SWRevealViewController.modulemap */,
+				1405CB417467B93C08C8A502A152C243 /* SWRevealViewController.xcconfig */,
+				C702114D3A7858D6445CFD2206E7D336 /* SWRevealViewController-dummy.m */,
+				DEB1657CE2F8DB2CFC3AE264824B848A /* SWRevealViewController-prefix.pch */,
+				DD8B36B2C5C0CB8F31AF60FFDEF45195 /* SWRevealViewController-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/SWRevealViewController";
 			sourceTree = "<group>";
 		};
 		D5D53FEEDC0F65D5030D9897CED3E2B0 /* Targets Support Files */ = {
@@ -444,6 +491,17 @@
 				2C9FBF3AD4A41728E4807BB6DC41320C /* Pods-CitiBankUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E20FB970E57A59D57D25793E22FD7AEE /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E832F80CBA14EDDEB0A901990F767089 /* SWRevealViewController.h */,
+				BC73A879BB1CC61AF4AFD7630E6963F1 /* SWRevealViewController.m */,
+				CBB87350C9305837065D371EC4A0D4D7 /* Support Files */,
+			);
+			name = SWRevealViewController;
+			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,11 +515,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		151A8ABECD9CAFD511CEA22FF630F276 /* Headers */ = {
+		36E490AD3ABA758367CDE87A328C987B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6684343019FE0647D90D658FC99EF6 /* Pods-CitiBank-umbrella.h in Headers */,
+				0086D360C7F9712CADB1CBFCF70C3AA8 /* SWRevealViewController-umbrella.h in Headers */,
+				874C6A00829F14E600628B3994AEC00E /* SWRevealViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DA12651A1B1843C3C9F67E276B9A08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B2EA3B6C504792BA498E221BBD340 /* Pods-CitiBank-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,25 +548,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E323F6756E9B3819A379ED9FDC43AEA2 /* Headers */ = {
+		A0A6333C97694CDB1C9871910875CCE5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17285003D257FF7F30114CA112648609 /* TwicketSegmentedControl-umbrella.h in Headers */,
+				E500CA0E6959F15F63FF7DAC705D9689 /* TwicketSegmentedControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAEAE1274A890D6894978FA32B40407B /* Headers */ = {
+		C83EC624C2B33F7080DDA5E4209E894F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3EB946672B3E57EC022CA50B33663CA /* TextFieldEffects-umbrella.h in Headers */,
+				4276E2FB88BF3DEC386C1E7046AB8BA3 /* TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0B67A9892A91E12494739750642F059A /* TwicketSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2C0F7B76EC0298C4404212AAE60D19 /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */;
+			buildPhases = (
+				5213284688AB305F3A7113B9A995995D /* Sources */,
+				AF641DC2CEB09B2CC6371DBB32E7A006 /* Frameworks */,
+				A0A6333C97694CDB1C9871910875CCE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwicketSegmentedControl;
+			productName = TwicketSegmentedControl;
+			productReference = CEA4284392BDA189BFD9A688D34914A3 /* TwicketSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08913436C5D3DFB2C8CEA353ED9FF003 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
@@ -514,7 +598,7 @@
 			);
 			name = M13Checkbox;
 			productName = M13Checkbox;
-			productReference = 11D27D76CCAFC4F8DC5F13EC93909062 /* M13Checkbox.framework */;
+			productReference = 68589541B871874B5EDD5A8A16F7E92B /* M13Checkbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		33FF863E88DCF887CDD6E0F4A2EA5F2E /* Pods-CitiBankTests */ = {
@@ -531,7 +615,7 @@
 			);
 			name = "Pods-CitiBankTests";
 			productName = "Pods-CitiBankTests";
-			productReference = 4814359D8E27422A0B1ECDB952D5C609 /* Pods_CitiBankTests.framework */;
+			productReference = 7BA8FCB8C74CFBB759E0FF316EB8A8B6 /* Pods_CitiBankTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		40E06BEEBA1D2EEE038B7E6207365879 /* Pods-CitiBankUITests */ = {
@@ -548,53 +632,33 @@
 			);
 			name = "Pods-CitiBankUITests";
 			productName = "Pods-CitiBankUITests";
-			productReference = EBBC155D1491C797695FAB8BCA021D0C /* Pods_CitiBankUITests.framework */;
+			productReference = 02F247971D5622C6AB3D5640C48D20A1 /* Pods_CitiBankUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4130A5B4ABF1569D66EEC9AF89D3AF8A /* TwicketSegmentedControl */ = {
+		6066B5764AF4419DB0178E58E0E6829F /* SWRevealViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE737CB7580F67EA5506FC6B5D101CAB /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */;
+			buildConfigurationList = ACC85595C50DF72FBDFD39054ECBC42D /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
 			buildPhases = (
-				6BD2B38A1B9A42011D3A5EC0BE680D61 /* Sources */,
-				3749245C1CB73E1540749DD66099ADAE /* Frameworks */,
-				E323F6756E9B3819A379ED9FDC43AEA2 /* Headers */,
+				70A31B26BF29B910D67F59C5711B3164 /* Sources */,
+				05EAF0239C94A5CC8ED2B02491ED7AC4 /* Frameworks */,
+				36E490AD3ABA758367CDE87A328C987B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TwicketSegmentedControl;
-			productName = TwicketSegmentedControl;
-			productReference = A9299913CF614EE4FCA89C1370340E7E /* TwicketSegmentedControl.framework */;
+			name = SWRevealViewController;
+			productName = SWRevealViewController;
+			productReference = 7BDB1D2167B86BEDA3751E40100D1A2E /* SWRevealViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7930201CBC0C0EC5AB9A25DBC1C0BC89 /* Pods-CitiBank */ = {
+		ACB939967BD332D9E4D36E14969E2E5B /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD57610DA26E9D93CA3C554B72919C1D /* Build configuration list for PBXNativeTarget "Pods-CitiBank" */;
+			buildConfigurationList = C41B2F2E295D49CA90E93F60A7715A4C /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				B1149B7455662269CF87B7FBEFD1A90F /* Sources */,
-				F40AB5AC34825A352662910005205BA3 /* Frameworks */,
-				151A8ABECD9CAFD511CEA22FF630F276 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C67EC3510DE88F22589CD9A7DA333933 /* PBXTargetDependency */,
-				6D1B1658368FA0BA1CC399E6291C0FA6 /* PBXTargetDependency */,
-				A6A58FB9C8568551B245FBD5BFB7E536 /* PBXTargetDependency */,
-			);
-			name = "Pods-CitiBank";
-			productName = "Pods-CitiBank";
-			productReference = 2AD3B53ACFBA36E840DF9E7F13DE47F9 /* Pods_CitiBank.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		87894BD22A8BEF70C5C811D3DDA52D0C /* TextFieldEffects */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAD6AFAB4400DF149C600CE5562C45F7 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
-			buildPhases = (
-				A97A950345C343DFCEB599E648CAFD7B /* Sources */,
-				B8DFC457F013D6F381DC763F6E80BAB8 /* Frameworks */,
-				EAEAE1274A890D6894978FA32B40407B /* Headers */,
+				93A4155146297028BBC9E59862001041 /* Sources */,
+				9D7441876E2DD3442C4ABF9972FB976D /* Frameworks */,
+				C83EC624C2B33F7080DDA5E4209E894F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -602,7 +666,28 @@
 			);
 			name = TextFieldEffects;
 			productName = TextFieldEffects;
-			productReference = A9CB0635950374F951A7B203A508B35C /* TextFieldEffects.framework */;
+			productReference = E8BB35CD4F7B63E14FA3FF411EA26A45 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF5C9FEDF6DF60FEE4C0F35998533888 /* Pods-CitiBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AE6292BC665FE426D66DFDEB806E5E /* Build configuration list for PBXNativeTarget "Pods-CitiBank" */;
+			buildPhases = (
+				5943BDEFB18F95FF53AE34EF4954C1E1 /* Sources */,
+				6F80879E23243CE4B2AAF374EFE42F1F /* Frameworks */,
+				48DA12651A1B1843C3C9F67E276B9A08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707923F2FE71585873F2A585E033CA52 /* PBXTargetDependency */,
+				B107A5E74FE3DBB2D5D156653952A70F /* PBXTargetDependency */,
+				A441213FB5D1445E0902C360EAD6B500 /* PBXTargetDependency */,
+				F6E56FC49F8F6D778D30D83CE899D9EC /* PBXTargetDependency */,
+			);
+			name = "Pods-CitiBank";
+			productName = "Pods-CitiBank";
+			productReference = 6BE05D73422325C0DE9791F09FBB7DA6 /* Pods_CitiBank.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -622,16 +707,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C83236891A57807C986D0A84F1366F19 /* Products */;
+			productRefGroup = 06DF190BC9D0D4F971A4C7EB06BE1CD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */,
-				7930201CBC0C0EC5AB9A25DBC1C0BC89 /* Pods-CitiBank */,
+				DF5C9FEDF6DF60FEE4C0F35998533888 /* Pods-CitiBank */,
 				33FF863E88DCF887CDD6E0F4A2EA5F2E /* Pods-CitiBankTests */,
 				40E06BEEBA1D2EEE038B7E6207365879 /* Pods-CitiBankUITests */,
-				87894BD22A8BEF70C5C811D3DDA52D0C /* TextFieldEffects */,
-				4130A5B4ABF1569D66EEC9AF89D3AF8A /* TwicketSegmentedControl */,
+				6066B5764AF4419DB0178E58E0E6829F /* SWRevealViewController */,
+				ACB939967BD332D9E4D36E14969E2E5B /* TextFieldEffects */,
+				0B67A9892A91E12494739750642F059A /* TwicketSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
@@ -645,14 +731,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BD2B38A1B9A42011D3A5EC0BE680D61 /* Sources */ = {
+		5213284688AB305F3A7113B9A995995D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF8FBEE45E7A88A7BAEA7AC4F8F432B /* Palette.swift in Sources */,
-				BD0FF59D8BAE4B76332110F86460F545 /* TwicketSegmentedControl-dummy.m in Sources */,
-				3C24AB35929189CE1F251C148B1AD56C /* TwicketSegmentedControl.swift in Sources */,
-				9AA3395BC994520BA4BD0864693B0803 /* UIViewShadowExtension.swift in Sources */,
+				DEE4CEA5AFAF80AFDD1404B196D50BA8 /* Palette.swift in Sources */,
+				4B69687FBF322B4D17962249C387D5F2 /* TwicketSegmentedControl-dummy.m in Sources */,
+				1CD87EB4A980A206AF0EE445675F14E9 /* TwicketSegmentedControl.swift in Sources */,
+				4BC89839641F59240518BCB42857B765 /* UIViewShadowExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5943BDEFB18F95FF53AE34EF4954C1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52861C024B311D4F7363492C717CEC5D /* Pods-CitiBank-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A31B26BF29B910D67F59C5711B3164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAACB68933F01BD7460388D5318D8B6D /* SWRevealViewController-dummy.m in Sources */,
+				A183C37439596C45C1912EA623E6A09E /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,29 +785,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A97A950345C343DFCEB599E648CAFD7B /* Sources */ = {
+		93A4155146297028BBC9E59862001041 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D3A5C7A98DA850B84EF84AD06B0ADC /* AkiraTextField.swift in Sources */,
-				172B4E67001F5DE07532456D2AB4469E /* HoshiTextField.swift in Sources */,
-				BC283DFAB0D118F0BBA9B9A387F6C939 /* IsaoTextField.swift in Sources */,
-				B862B5FE2489BD91CB51D89B31DAA1F3 /* JiroTextField.swift in Sources */,
-				F69A10A20AEBFFED50F120A8F68BC670 /* KaedeTextField.swift in Sources */,
-				A675525D44874A3C6FC669B9D31B3E25 /* MadokaTextField.swift in Sources */,
-				5538BD261E6BB4C88E2568B6C78BC0F1 /* MinoruTextField.swift in Sources */,
-				2FAA955A102415BCEE34DE8AF9ECB7E0 /* TextFieldEffects-dummy.m in Sources */,
-				43EA19FB84485AE0F6074C0B9E0B191A /* TextFieldEffects.swift in Sources */,
-				EC19B46D92960F1417C0F00BC478D0A7 /* YokoTextField.swift in Sources */,
-				642D4BFE7B3A691B7D6C612D1511E58B /* YoshikoTextField.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1149B7455662269CF87B7FBEFD1A90F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB4603E7945789F59928F077C81223DF /* Pods-CitiBank-dummy.m in Sources */,
+				3BD70EAEAC5A23FFDA0949BF88698BEB /* AkiraTextField.swift in Sources */,
+				EF854C6DD1045E3A54CDB491E6EB28B2 /* HoshiTextField.swift in Sources */,
+				B4EAA732584F5B286675CF897E5EDB9B /* IsaoTextField.swift in Sources */,
+				CF2C034466F3DE4B638612DC30AD254B /* JiroTextField.swift in Sources */,
+				666AD488496DC009A5C2DDB1234D303A /* KaedeTextField.swift in Sources */,
+				A68210D18344D818A73B9A3C4DE6D0C6 /* MadokaTextField.swift in Sources */,
+				08B0421ED3E14B0A0D9B44118358DCF1 /* MinoruTextField.swift in Sources */,
+				39B55F35F1D3F3E3E52D8A30C400B56C /* TextFieldEffects-dummy.m in Sources */,
+				8021B4839A5A4CD172B748D6C0491E0D /* TextFieldEffects.swift in Sources */,
+				028A27E3E7A963690BBFA06149BA92CE /* YokoTextField.swift in Sources */,
+				FF1C05FA6F98ECC371B5ED6F426A67E6 /* YoshikoTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,23 +814,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D1B1658368FA0BA1CC399E6291C0FA6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TextFieldEffects;
-			target = 87894BD22A8BEF70C5C811D3DDA52D0C /* TextFieldEffects */;
-			targetProxy = 44418F4D67AB7AB44DAA8D565416CA88 /* PBXContainerItemProxy */;
-		};
-		A6A58FB9C8568551B245FBD5BFB7E536 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TwicketSegmentedControl;
-			target = 4130A5B4ABF1569D66EEC9AF89D3AF8A /* TwicketSegmentedControl */;
-			targetProxy = 2BE42EE625306376CB1D779EABB2B4FB /* PBXContainerItemProxy */;
-		};
-		C67EC3510DE88F22589CD9A7DA333933 /* PBXTargetDependency */ = {
+		707923F2FE71585873F2A585E033CA52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = M13Checkbox;
 			target = 20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */;
-			targetProxy = F4B12C3E00DA2C3CA4B12737786DC43E /* PBXContainerItemProxy */;
+			targetProxy = 7E8CDEA49B937205B8D94F32C440E8A7 /* PBXContainerItemProxy */;
+		};
+		A441213FB5D1445E0902C360EAD6B500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = ACB939967BD332D9E4D36E14969E2E5B /* TextFieldEffects */;
+			targetProxy = 7DC6152FD838E27184A427EC525CD4BF /* PBXContainerItemProxy */;
+		};
+		B107A5E74FE3DBB2D5D156653952A70F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWRevealViewController;
+			target = 6066B5764AF4419DB0178E58E0E6829F /* SWRevealViewController */;
+			targetProxy = AE1A496334E7BB503BA4BB0AC2AB3521 /* PBXContainerItemProxy */;
+		};
+		F6E56FC49F8F6D778D30D83CE899D9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwicketSegmentedControl;
+			target = 0B67A9892A91E12494739750642F059A /* TwicketSegmentedControl */;
+			targetProxy = C74B8EB090E91D871CC64DBD43D8383C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -824,42 +925,7 @@
 			};
 			name = Debug;
 		};
-		365605BAACE63316B7F91AF79F8E66B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF0A4625CF4D737E233EF80563B9E8B /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		390E9B18235179EA833739AF14A77B8A /* Debug */ = {
+		203F2FBF15E7658E4742EF2ACA10632F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89A1585D7AADEBEA63AB6BA7634A1D51 /* Pods-CitiBank.debug.xcconfig */;
 			buildSettings = {
@@ -897,6 +963,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		2306ADB19E9F9ED60040029A778253A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F7C8EA34727D82E612ADCC8327A724 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		39F267BC39474735E880643778621D37 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -970,47 +1070,9 @@
 			};
 			name = Debug;
 		};
-		42578289D5B98BA3E08C3910A895EAB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3939D8DB5CBEA159E70EE052228C981 /* Pods-CitiBank.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CitiBank/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CitiBank/Pods-CitiBank.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CitiBank;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5B817DFC476867BD02DA7E3B92FA88A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F65DED8772030C6808CB1BD4110D9205 /* M13Checkbox.xcconfig */;
+			baseConfigurationReference = 6365A290B2FC1B2DFAB41B648B629C95 /* M13Checkbox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1042,16 +1104,16 @@
 			};
 			name = Release;
 		};
-		60F1BCB1E5A5C8A77DBFB287F2D3DFC9 /* Release */ = {
+		5E929313D85D9E627F1F2E9410D95C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 726C68E297062912FD7B7F0E55C9E788 /* TwicketSegmentedControl.xcconfig */;
+			baseConfigurationReference = C7AA1BF8C3F97855707387064E6B49D8 /* TwicketSegmentedControl.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1064,17 +1126,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = TwicketSegmentedControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1120,9 +1183,42 @@
 			};
 			name = Release;
 		};
+		7612D6146E52EE89E466D97F178E07CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1405CB417467B93C08C8A502A152C243 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9F7AA469D5B3C0204DF47697C2977D5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F65DED8772030C6808CB1BD4110D9205 /* M13Checkbox.xcconfig */;
+			baseConfigurationReference = 6365A290B2FC1B2DFAB41B648B629C95 /* M13Checkbox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1154,6 +1250,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A3D202DD5998B95ECD8C8428856E4568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7AA1BF8C3F97855707387064E6B49D8 /* TwicketSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwicketSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TwicketSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A9F08BD185F835CC00C2DFE557CD32F8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1191,43 +1321,9 @@
 			};
 			name = Release;
 		};
-		F792974F2CDB388B3DFCFA969103470B /* Release */ = {
+		C702D752F6DC2529DAE8DCC93AD332DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF0A4625CF4D737E233EF80563B9E8B /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA3A92C23B33F788CF825FE14933FD54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 726C68E297062912FD7B7F0E55C9E788 /* TwicketSegmentedControl.xcconfig */;
+			baseConfigurationReference = 1405CB417467B93C08C8A502A152C243 /* SWRevealViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1241,14 +1337,47 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TwicketSegmentedControl/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TwicketSegmentedControl;
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9B898A8E7A38245EC6C8B13BAD2D531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F7C8EA34727D82E612ADCC8327A724 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextFieldEffects;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1259,6 +1388,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F7B9570687653148EE314D3B761644BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3939D8DB5CBEA159E70EE052228C981 /* Pods-CitiBank.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CitiBank/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CitiBank/Pods-CitiBank.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CitiBank;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1299,29 +1466,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE737CB7580F67EA5506FC6B5D101CAB /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */ = {
+		74AE6292BC665FE426D66DFDEB806E5E /* Build configuration list for PBXNativeTarget "Pods-CitiBank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA3A92C23B33F788CF825FE14933FD54 /* Debug */,
-				60F1BCB1E5A5C8A77DBFB287F2D3DFC9 /* Release */,
+				203F2FBF15E7658E4742EF2ACA10632F /* Debug */,
+				F7B9570687653148EE314D3B761644BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAD6AFAB4400DF149C600CE5562C45F7 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+		9A2C0F7B76EC0298C4404212AAE60D19 /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				365605BAACE63316B7F91AF79F8E66B9 /* Debug */,
-				F792974F2CDB388B3DFCFA969103470B /* Release */,
+				5E929313D85D9E627F1F2E9410D95C52 /* Debug */,
+				A3D202DD5998B95ECD8C8428856E4568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD57610DA26E9D93CA3C554B72919C1D /* Build configuration list for PBXNativeTarget "Pods-CitiBank" */ = {
+		ACC85595C50DF72FBDFD39054ECBC42D /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				390E9B18235179EA833739AF14A77B8A /* Debug */,
-				42578289D5B98BA3E08C3910A895EAB3 /* Release */,
+				C702D752F6DC2529DAE8DCC93AD332DB /* Debug */,
+				7612D6146E52EE89E466D97F178E07CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41B2F2E295D49CA90E93F60A7715A4C /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B898A8E7A38245EC6C8B13BAD2D531 /* Debug */,
+				2306ADB19E9F9ED60040029A778253A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

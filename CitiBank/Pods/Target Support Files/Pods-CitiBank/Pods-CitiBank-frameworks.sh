@@ -90,11 +90,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/M13Checkbox/M13Checkbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SWRevealViewController/SWRevealViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TextFieldEffects/TextFieldEffects.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TwicketSegmentedControl/TwicketSegmentedControl.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/M13Checkbox/M13Checkbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SWRevealViewController/SWRevealViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TextFieldEffects/TextFieldEffects.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TwicketSegmentedControl/TwicketSegmentedControl.framework"
 fi

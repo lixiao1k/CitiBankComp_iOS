@@ -9,6 +9,7 @@ target 'CitiBank' do
   pod 'M13Checkbox'
   pod 'TwicketSegmentedControl'
   pod ‘TextFieldEffects’
+  pod 'SWRevealViewController'
   target 'CitiBankTests' do
     inherit! :search_paths
     # Pods for testing
