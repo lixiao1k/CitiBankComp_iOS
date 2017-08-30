@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0924E86C1F493190004B1FC4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924E86B1F493190004B1FC4 /* HomeViewController.swift */; };
 		0956B93D1F5672D90079F998 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0956B93C1F5672D90079F998 /* MenuTableViewController.swift */; };
+		0956B93F1F569E280079F998 /* ActivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0956B93E1F569E280079F998 /* ActivateViewController.swift */; };
 		097B9AAD1F4878D700EAF825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9AAC1F4878D700EAF825 /* AppDelegate.swift */; };
 		097B9AAF1F4878D700EAF825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097B9AAE1F4878D700EAF825 /* ViewController.swift */; };
 		097B9AB21F4878D700EAF825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097B9AB01F4878D700EAF825 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		0924E86B1F493190004B1FC4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0956B9391F5660440079F998 /* CitiBank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CitiBank-Bridging-Header.h"; sourceTree = "<group>"; };
 		0956B93C1F5672D90079F998 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		0956B93E1F569E280079F998 /* ActivateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivateViewController.swift; sourceTree = "<group>"; };
 		097B9AA91F4878D700EAF825 /* CitiBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		097B9AAC1F4878D700EAF825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		097B9AAE1F4878D700EAF825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				097B9AAE1F4878D700EAF825 /* ViewController.swift */,
 				099837661F4BCBDE00253208 /* UIView_Button.swift */,
 				097B9AB01F4878D700EAF825 /* Main.storyboard */,
+				0956B93E1F569E280079F998 /* ActivateViewController.swift */,
 				0956B93C1F5672D90079F998 /* MenuTableViewController.swift */,
 				09E684451F55C744002DF494 /* LogUpViewController.swift */,
 				09E684431F55C377002DF494 /* LoginViewController.swift */,
@@ -540,6 +543,7 @@
 				09E684441F55C377002DF494 /* LoginViewController.swift in Sources */,
 				0956B93D1F5672D90079F998 /* MenuTableViewController.swift in Sources */,
 				098882FD1F4EFC070016E396 /* BDCellTableViewCell.swift in Sources */,
+				0956B93F1F569E280079F998 /* ActivateViewController.swift in Sources */,
 				0998376D1F4C267E00253208 /* Picker_TextField.swift in Sources */,
 				098882F91F4EC6000016E396 /* SweetAlert.swift in Sources */,
 			);
