@@ -9,15 +9,45 @@
 import UIKit
 
 class IdentifyViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var container1: UIView!
+    
+    @IBOutlet weak var container2: UIView!
+    
+    var progress = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard(tapG:)))
+        tap.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(tap)
+        
 
         // Do any additional setup after loading the view.
         navigationItem.leftBarButtonItem?.target = self
         navigationItem.leftBarButtonItem?.action = #selector(back)
+        container1.isHidden = false
+        container2.isHidden = true
+        
+    }
+    
+    @IBAction func identify(_ sender: UIButton) {
+        if container1.isHidden {
+            container1.isHidden = false
+            container2.isHidden = true
+        }else{
+            container1.isHidden = true
+            container2.isHidden = false
+        }
+    }
+    
+    func hideKeyboard(tapG:UITapGestureRecognizer)  {
+        self.view.endEditing(true)
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

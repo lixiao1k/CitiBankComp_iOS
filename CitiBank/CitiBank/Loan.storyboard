@@ -10,23 +10,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Loan Fast View Controller-->
         <scene sceneID="vmD-Td-eUX">
             <objects>
-                <viewController id="SIY-K9-ZVa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loan_fast" id="SIY-K9-ZVa" customClass="Loan_Fast_ViewController" customModule="CitiBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kps-6g-D4c"/>
                         <viewControllerLayoutGuide type="bottom" id="sJP-yH-SYp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fw3-Eo-j1X">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXU-2E-YUE">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXU-2E-YUE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EBC-Hg-JI0">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EF3-lV-FNB">
                                                 <rect key="frame" x="24" y="51" width="272" height="128"/>
@@ -34,31 +34,31 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="Ila-5S-5hr"/>
                                                 </constraints>
-                                                <mutableString key="text">利率介绍Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                <string key="text">利率介绍Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="借款金额" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TvN-HY-wdw">
-                                                <rect key="frame" x="24" y="215" width="272" height="40"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="借款金额" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TvN-HY-wdw" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                                                <rect key="frame" x="24" y="199" width="272" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="oBo-ex-5cC"/>
+                                                    <constraint firstAttribute="height" constant="30" id="oBo-ex-5cC"/>
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vRI-3J-ggs">
-                                                <rect key="frame" x="143" y="262" width="153" height="19.5"/>
+                                                <rect key="frame" x="143" y="236" width="153" height="20"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="剩余额度：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O53-CB-9rL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="93" height="19.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="93" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVI-mr-CVQ">
-                                                        <rect key="frame" x="93" y="0.0" width="60" height="19.5"/>
+                                                        <rect key="frame" x="93" y="0.0" width="60" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="60" id="cCX-dd-PyG"/>
                                                         </constraints>
@@ -72,84 +72,68 @@
                                                     <constraint firstAttribute="width" constant="153" id="spR-pI-3Y9"/>
                                                 </constraints>
                                             </stackView>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="还款期限" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fbx-k7-1pG">
-                                                <rect key="frame" x="24" y="311.5" width="272" height="40"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="还款期限" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fbx-k7-1pG" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                                                <rect key="frame" x="24" y="276" width="272" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="借款用途" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgX-zB-bdO">
-                                                <rect key="frame" x="24" y="373" width="70" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="借款原因" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Uf-Ds-xhl">
+                                                <rect key="frame" x="24" y="326" width="70" height="21"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="GcO-Ky-Uai"/>
-                                                    <constraint firstAttribute="width" constant="70" id="UQ7-On-9DX"/>
+                                                    <constraint firstAttribute="width" constant="70" id="IY6-7P-24q"/>
+                                                    <constraint firstAttribute="height" constant="20.5" id="InX-Pb-S89"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1z-kB-rJ8">
-                                                <rect key="frame" x="44" y="402" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="买房"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5M-jx-rzx">
-                                                <rect key="frame" x="117" y="402" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="买车"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4a4-7L-Gkl">
-                                                <rect key="frame" x="189" y="402" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="上学"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTl-78-lbj">
-                                                <rect key="frame" x="266" y="402" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="结婚"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RB7-yl-enN">
-                                                <rect key="frame" x="44" y="440" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="租房"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P05-m6-zdU">
-                                                <rect key="frame" x="117" y="440" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="旅游"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sk-EG-kA3">
-                                                <rect key="frame" x="189" y="440" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="生子"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R16-1S-aAX">
-                                                <rect key="frame" x="259" y="440" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="留学"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fs-ap-oQx">
-                                                <rect key="frame" x="52" y="478" width="31" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="派对"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="d" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aFW-hd-d9n">
+                                                <rect key="frame" x="24" y="355" width="272" height="128"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="QGW-uM-R5U"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oek-Xv-Vx3">
+                                                <rect key="frame" x="91" y="503" width="138" height="30"/>
+                                                <color key="backgroundColor" red="0.10980392160000001" green="0.57254901960000004" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="138" id="skc-WB-ANo"/>
+                                                    <constraint firstAttribute="height" constant="30" id="zLB-b1-5Mg"/>
+                                                </constraints>
+                                                <state key="normal" title="借款">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="loan:" destination="SIY-K9-ZVa" eventType="touchUpInside" id="W7N-vK-99G"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="fbx-k7-1pG" firstAttribute="height" secondItem="TvN-HY-wdw" secondAttribute="height" id="5GN-7U-HBq"/>
+                                            <constraint firstItem="Oek-Xv-Vx3" firstAttribute="centerX" secondItem="aFW-hd-d9n" secondAttribute="centerX" id="6Uk-Wc-YEV"/>
+                                            <constraint firstItem="aFW-hd-d9n" firstAttribute="width" secondItem="fbx-k7-1pG" secondAttribute="width" id="G4M-nn-5bA"/>
                                             <constraint firstItem="vRI-3J-ggs" firstAttribute="trailing" secondItem="TvN-HY-wdw" secondAttribute="trailing" id="Ifl-Em-pzC"/>
                                             <constraint firstItem="fbx-k7-1pG" firstAttribute="centerX" secondItem="EBC-Hg-JI0" secondAttribute="centerX" id="K4W-zS-fhM"/>
-                                            <constraint firstItem="HgX-zB-bdO" firstAttribute="leading" secondItem="fbx-k7-1pG" secondAttribute="leading" id="KOJ-Mp-b9n"/>
-                                            <constraint firstItem="HgX-zB-bdO" firstAttribute="top" secondItem="fbx-k7-1pG" secondAttribute="bottom" constant="21.5" id="Pta-5p-lEA"/>
+                                            <constraint firstItem="aFW-hd-d9n" firstAttribute="centerX" secondItem="EBC-Hg-JI0" secondAttribute="centerX" id="Qrd-Zm-ghl"/>
+                                            <constraint firstItem="Oek-Xv-Vx3" firstAttribute="top" secondItem="aFW-hd-d9n" secondAttribute="bottom" constant="20" id="UlN-hI-2IK"/>
                                             <constraint firstItem="EF3-lV-FNB" firstAttribute="centerX" secondItem="EBC-Hg-JI0" secondAttribute="centerX" id="YSY-Ye-z8K"/>
                                             <constraint firstItem="EF3-lV-FNB" firstAttribute="width" secondItem="EBC-Hg-JI0" secondAttribute="width" multiplier="0.85" id="Z6Q-cj-HVq"/>
+                                            <constraint firstItem="aFW-hd-d9n" firstAttribute="top" secondItem="1Uf-Ds-xhl" secondAttribute="bottom" constant="8.5" id="apz-EN-6ww"/>
+                                            <constraint firstAttribute="width" constant="320" id="cQt-Pa-JjF"/>
                                             <constraint firstItem="vRI-3J-ggs" firstAttribute="top" secondItem="TvN-HY-wdw" secondAttribute="bottom" constant="7" id="eDb-ii-8Z0"/>
                                             <constraint firstItem="fbx-k7-1pG" firstAttribute="width" secondItem="TvN-HY-wdw" secondAttribute="width" id="gIC-hb-dYX"/>
-                                            <constraint firstItem="fbx-k7-1pG" firstAttribute="top" secondItem="vRI-3J-ggs" secondAttribute="bottom" constant="30" id="hXv-Gg-0hG"/>
+                                            <constraint firstItem="fbx-k7-1pG" firstAttribute="top" secondItem="vRI-3J-ggs" secondAttribute="bottom" constant="20" id="hXv-Gg-0hG"/>
+                                            <constraint firstItem="1Uf-Ds-xhl" firstAttribute="top" secondItem="fbx-k7-1pG" secondAttribute="bottom" constant="20" id="nvI-DO-OLp"/>
                                             <constraint firstItem="EF3-lV-FNB" firstAttribute="top" secondItem="EBC-Hg-JI0" secondAttribute="top" constant="51" id="pyL-4y-RIl"/>
-                                            <constraint firstItem="TvN-HY-wdw" firstAttribute="top" secondItem="EF3-lV-FNB" secondAttribute="bottom" constant="36" id="qJg-Bx-Eoe"/>
+                                            <constraint firstItem="TvN-HY-wdw" firstAttribute="top" secondItem="EF3-lV-FNB" secondAttribute="bottom" constant="20" id="qJg-Bx-Eoe"/>
                                             <constraint firstItem="TvN-HY-wdw" firstAttribute="width" secondItem="EF3-lV-FNB" secondAttribute="width" id="rkl-AD-0YL"/>
                                             <constraint firstItem="TvN-HY-wdw" firstAttribute="centerX" secondItem="EBC-Hg-JI0" secondAttribute="centerX" id="tkP-Y4-9KB"/>
+                                            <constraint firstItem="1Uf-Ds-xhl" firstAttribute="leading" secondItem="fbx-k7-1pG" secondAttribute="leading" id="yM7-C6-quL"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -157,12 +141,12 @@
                                     <constraint firstItem="EBC-Hg-JI0" firstAttribute="leading" secondItem="vXU-2E-YUE" secondAttribute="leading" id="88I-SM-c1c"/>
                                     <constraint firstItem="EBC-Hg-JI0" firstAttribute="centerY" secondItem="vXU-2E-YUE" secondAttribute="centerY" id="8HS-Wg-SQw"/>
                                     <constraint firstItem="EBC-Hg-JI0" firstAttribute="centerX" secondItem="vXU-2E-YUE" secondAttribute="centerX" id="CRV-0D-bCW"/>
-                                    <constraint firstAttribute="height" constant="800" id="QHe-US-HpB"/>
                                     <constraint firstAttribute="trailing" secondItem="EBC-Hg-JI0" secondAttribute="trailing" id="U3Q-pF-01J"/>
                                     <constraint firstItem="EBC-Hg-JI0" firstAttribute="height" secondItem="vXU-2E-YUE" secondAttribute="height" id="bMf-XP-qJJ"/>
                                     <constraint firstAttribute="bottom" secondItem="EBC-Hg-JI0" secondAttribute="bottom" id="cNt-nQ-ZqF"/>
                                     <constraint firstItem="EBC-Hg-JI0" firstAttribute="width" secondItem="vXU-2E-YUE" secondAttribute="width" id="omb-OZ-DVK"/>
                                     <constraint firstItem="EBC-Hg-JI0" firstAttribute="top" secondItem="vXU-2E-YUE" secondAttribute="top" id="tdf-fs-DIZ"/>
+                                    <constraint firstAttribute="width" constant="320" id="uD3-a7-E4Y"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -174,12 +158,123 @@
                             <constraint firstItem="vXU-2E-YUE" firstAttribute="centerX" secondItem="fw3-Eo-j1X" secondAttribute="centerX" id="gGr-Wq-gLz"/>
                         </constraints>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="800"/>
+                    <connections>
+                        <outlet property="duration" destination="fbx-k7-1pG" id="YzA-UB-REN"/>
+                        <outlet property="interst_introduction" destination="EF3-lV-FNB" id="Smm-En-Hwc"/>
+                        <outlet property="limit_remain" destination="hVI-mr-CVQ" id="F8V-ow-fgM"/>
+                        <outlet property="loan_btn" destination="Oek-Xv-Vx3" id="hOq-pv-omQ"/>
+                        <outlet property="loan_money" destination="TvN-HY-wdw" id="xwD-5E-2Dp"/>
+                        <outlet property="loan_reason" destination="aFW-hd-d9n" id="HO6-qG-ktl"/>
+                        <outlet property="scrollview" destination="vXU-2E-YUE" id="isM-1z-jVg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i9y-nr-Dgx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-247.5" y="-125.70422535211267"/>
+            <point key="canvasLocation" x="-212" y="-126"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cps-uu-K3h">
+            <objects>
+                <viewController id="IzB-Yf-LFJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pN0-KS-rMZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="HeM-dE-r9V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dnR-i7-xL6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="借款金额" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ywr-8R-fJR" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                                <rect key="frame" x="24" y="38" width="272" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hln-IK-qcj"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="还款期限" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZBk-pM-sgV" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                                <rect key="frame" x="24.5" y="108" width="272" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="利息制定" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i5d-dS-MgJ" customClass="Picker_TextField" customModule="CitiBank" customModuleProvider="target">
+                                <rect key="frame" x="24" y="178" width="272" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1aV-Ye-hYg">
+                                <rect key="frame" x="24" y="248" width="272" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="V3K-e3-Shv"/>
+                                </constraints>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="I4a-Rt-S68">
+                                <rect key="frame" x="119.5" y="411" width="81" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我同意" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnS-yT-gRf">
+                                        <rect key="frame" x="0.0" y="0.0" width="52" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwR-3K-j25" customClass="M13Checkbox" customModule="M13Checkbox">
+                                        <rect key="frame" x="56" y="0.0" width="25" height="25"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="3Ay-Gk-Kwh"/>
+                                            <constraint firstAttribute="width" constant="25" id="9V3-mc-8mI"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="i2S-IJ-MvX"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lo-8L-uuU">
+                                <rect key="frame" x="91" y="506" width="138" height="30"/>
+                                <color key="backgroundColor" red="0.10980392160000001" green="0.57254901960000004" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5wV-a5-EyM"/>
+                                    <constraint firstAttribute="width" constant="138" id="JUt-Ow-ciq"/>
+                                </constraints>
+                                <state key="normal" title="投标">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZBk-pM-sgV" firstAttribute="centerX" secondItem="dnR-i7-xL6" secondAttribute="centerX" id="A5y-pk-7JD"/>
+                            <constraint firstItem="1aV-Ye-hYg" firstAttribute="top" secondItem="i5d-dS-MgJ" secondAttribute="bottom" constant="40" id="BLy-f2-g9f"/>
+                            <constraint firstItem="i5d-dS-MgJ" firstAttribute="height" secondItem="ZBk-pM-sgV" secondAttribute="height" id="FPg-zf-GMJ"/>
+                            <constraint firstItem="I4a-Rt-S68" firstAttribute="centerX" secondItem="dnR-i7-xL6" secondAttribute="centerX" id="Mvj-d6-4Ga"/>
+                            <constraint firstItem="i5d-dS-MgJ" firstAttribute="width" secondItem="ZBk-pM-sgV" secondAttribute="width" id="Prn-fL-IBk"/>
+                            <constraint firstItem="ZBk-pM-sgV" firstAttribute="height" secondItem="ywr-8R-fJR" secondAttribute="height" id="VXy-tU-AXH"/>
+                            <constraint firstItem="8Lo-8L-uuU" firstAttribute="top" secondItem="I4a-Rt-S68" secondAttribute="bottom" constant="70" id="W8o-Jy-6kj"/>
+                            <constraint firstItem="I4a-Rt-S68" firstAttribute="top" secondItem="1aV-Ye-hYg" secondAttribute="bottom" constant="35" id="bg6-z5-G31"/>
+                            <constraint firstItem="ywr-8R-fJR" firstAttribute="top" secondItem="pN0-KS-rMZ" secondAttribute="bottom" constant="18" id="eHv-lf-Lkj"/>
+                            <constraint firstItem="i5d-dS-MgJ" firstAttribute="top" secondItem="ZBk-pM-sgV" secondAttribute="bottom" constant="40" id="hni-Ua-LKb"/>
+                            <constraint firstItem="ZBk-pM-sgV" firstAttribute="width" secondItem="ywr-8R-fJR" secondAttribute="width" id="iai-88-JXz"/>
+                            <constraint firstItem="8Lo-8L-uuU" firstAttribute="centerX" secondItem="dnR-i7-xL6" secondAttribute="centerX" id="pIU-05-4BF"/>
+                            <constraint firstItem="ywr-8R-fJR" firstAttribute="width" secondItem="dnR-i7-xL6" secondAttribute="width" multiplier="0.85" id="pUv-h8-vog"/>
+                            <constraint firstItem="ZBk-pM-sgV" firstAttribute="top" secondItem="ywr-8R-fJR" secondAttribute="bottom" constant="40" id="qNK-x4-E0v"/>
+                            <constraint firstItem="1aV-Ye-hYg" firstAttribute="width" secondItem="i5d-dS-MgJ" secondAttribute="width" id="uvV-nU-zcW"/>
+                            <constraint firstItem="1aV-Ye-hYg" firstAttribute="centerX" secondItem="dnR-i7-xL6" secondAttribute="centerX" id="wTd-hQ-XAR"/>
+                            <constraint firstItem="ywr-8R-fJR" firstAttribute="centerX" secondItem="dnR-i7-xL6" secondAttribute="centerX" id="xaR-fl-unc"/>
+                            <constraint firstItem="i5d-dS-MgJ" firstAttribute="centerX" secondItem="dnR-i7-xL6" secondAttribute="centerX" id="z3y-Up-6oz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KlO-3w-QYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="573.75" y="-127.8169014084507"/>
         </scene>
     </scenes>
 </document>

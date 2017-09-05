@@ -56,6 +56,7 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         //为自定义view添加监听
         inv_plan_view.addOnClickListener(target: self, action: #selector(goInvestPlan))
         inv_scat_view.addOnClickListener(target: self, action: #selector(goInvestScattered))
+        bor_fast_view.addOnClickListener(target: self, action: #selector(goFastLoan))
         
 
         // Do any additional setup after loading the view.
@@ -102,6 +103,10 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         self.navigationController?.pushViewController(viewController, animated: true)
     }
     
+    func goFastLoan() {
+        let viewController = UIStoryboard(name: "Loan", bundle: nil).instantiateViewController(withIdentifier: "loan_fast") as UIViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
     
 
     
